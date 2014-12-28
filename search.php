@@ -8,15 +8,25 @@
 
 get_header(); ?>
 
-	<div id="primary" class="<?php echo odin_classes_page_sidebar(); ?>">
+	<div id="primary" class="col-md-12">
 		<div id="content" class="site-content" role="main">
-
 			<?php if ( have_posts() ) : ?>
 
 				<header class="page-header">
-					<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'odin' ), get_search_query() ); ?></h1>
+					<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'odin' ), '<span class="search-query">'. get_search_query() . '</span>' ); ?></h1>
 				</header><!-- .page-header -->
-
+				<?php
+				// Post navigation.
+				odin_paging_nav();
+				?>
+				<table id="post-views" class="col-md-12">
+					<thead>
+						<tr>
+							<th class="title-row" id="serps_ctitle">Torrents</th>
+							<th class="date-row" id="serps_ccreated_at"><a class="sort-link"><?php _e('Date','odin');?></a></th>
+							<th class="size-row" id="serps_csize"><a class="sort-link"><?php _e('Size','odin'); ?></a></th>
+						</tr>
+					</thead>
 					<?php
 						// Start the Loop.
 						while ( have_posts() ) : the_post();
@@ -28,10 +38,15 @@ get_header(); ?>
 							 */
 							get_template_part( 'content', get_post_format() );
 
-						endwhile;
+						endwhile; ?>
 
-						// Post navigation.
-						odin_paging_nav();
+
+				</table>
+				<?php
+				// Post navigation.
+				odin_paging_nav();
+				?>
+					<?php
 
 					else :
 						// If no content, include the "No posts found" template.
@@ -45,5 +60,4 @@ get_header(); ?>
 
 </div><!-- #primary -->
 <?php
-get_sidebar();
 get_footer();

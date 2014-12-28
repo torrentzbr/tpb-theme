@@ -33,61 +33,45 @@
 
 <body <?php body_class(); ?>>
 	<div class="container">
-		<header id="header" role="banner">
-			<?php if ( is_home() ) : ?>
-				<h1 class="site-title"><a href="<?php echo home_url(); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-			<?php else : ?>
-				<div class="site-title h1"><a href="<?php echo home_url(); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></div>
-				<div class="site-description h2"><?php bloginfo( 'description' ); ?></div>
-			<?php endif ?>
-
-			<?php
-				$header_image = get_header_image();
-				if ( ! empty( $header_image ) ) :
-			?>
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( $header_image ); ?>" height="<?php esc_attr_e( $header_image->height ); ?>" width="<?php esc_attr_e( $header_image->width ); ?>" alt="" /></a>
-			<?php endif; ?>
-
-			<nav id="main-navigation" class="navbar navbar-default" role="navigation">
-				<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'odin' ); ?>"><?php _e( 'Skip to content', 'odin' ); ?></a>
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-navigation">
-					<span class="sr-only"><?php _e( 'Toggle navigation', 'odin' ); ?></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<?php /*
-
-					<a class="navbar-brand" href="<?php echo home_url(); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-
-					*/ ?>
-				</div>
-
-				<div class="collapse navbar-collapse navbar-main-navigation">
-					<?php
-						wp_nav_menu(
-							array(
-								'theme_location' => 'main-menu',
-								'depth'          => 2,
-								'container'      => false,
-								'menu_class'     => 'nav navbar-nav',
-								'fallback_cb'    => 'Odin_Bootstrap_Nav_Walker::fallback',
-								'walker'         => new Odin_Bootstrap_Nav_Walker()
-							)
-						);
-					?>
-
-					<form method="get" class="navbar-form navbar-right" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
-						<label for="navbar-search" class="sr-only"><?php _e( 'Search:', 'odin' ); ?></label>
-						<div class="form-group">
-							<input type="text" class="form-control" name="s" id="navbar-search" />
-						</div>
-						<button type="submit" class="btn btn-default"><?php _e( 'Search', 'odin' ); ?></button>
-					</form>
-				</div><!-- .navbar-collapse -->
-			</nav><!-- #main-menu -->
-		</header><!-- #header -->
-
 		<div id="main" class="site-main row">
+			<header class="col-md-12 home"></header><!-- .col-md-12 home -->
+			<div class="col-md-2 col-md-offset-5 col-xs-12" id="home-menu">
+				<a href="#" class="active"><?php _e('Search','odin'); ?></a> |
+				<a href="#" id="categories" data-toggle="modal" data-target="#categories-modal"><?php _e('Categories','odin'); ?></a>
+			</div><!-- .col-md-6 col-md-offset-4 -->
+			<form method="get" id="searchform-home" class="col-md-12" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
+				<input type="text" class="col-md-12" name="s" id="s" placeholder="<?php esc_attr_e( 'Search Pirate', 'odin' ); ?>" required />
+				<div class="col-md-11 col-md-offset-1 col-xs-12">
+					<?php
+					$categories = get_categories('hide_empty=0');
+					foreach ($categories as $category) {
+						$option = '<input type="radio" name="category_name" value="'.$category->slug.'"/><label>'.$category->cat_name.'</label>';
+						echo $option;
+					}
+					?>
+				</div><!-- col-md-6 col-md-offset-4 -->
+				<div class="col-md-4 col-md-offset-4 col-xs-12">
+					<input id="submit" type="submit" class="btn btn-default btn-lg btn-tpb col-md-12 pull-left" value="<?php esc_attr_e( 'Search', 'odin' ); ?>" />
+				</div><!-- .col-md-6 col-md-offset-4 -->
+			</form>
+			<!-- Modal -->
+			<div class="modal fade" id="categories-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<h4 class="modal-title" id="myModalLabel"><?php _e('Categories','odin'); ?></h4>
+						</div>
+						<div class="modal-body">
+							<?php $categories = get_categories('hide_empty=0'); ?>
+							<?php foreach ($categories as $category): ?>
+							<a href="<?php echo get_category_link($category->cat_ID); ?>">
+								<?php echo $category->name . ' (' .$category->category_count. ')'; ?>
+							</a>
+						<?php endforeach; ?>
+					</div>
+				</div>
+			</div>
+		</div>

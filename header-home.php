@@ -32,4 +32,5 @@
 </head>
 
 <body <?php body_class(); ?>>
+	<div class="container">
 		<div id="main" class="site-main row">

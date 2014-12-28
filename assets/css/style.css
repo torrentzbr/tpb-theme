@@ -19,6 +19,9 @@ form #s{
 	margin-bottom:10px;
 	border-radius:3px;
 }
+#searchform-home label{
+	padding:5px;
+}
 .btn-tpb{
 	background: #3579BC !important;
 	border:none !important;
@@ -40,4 +43,28 @@ form #s{
 #home-menu .active{
 	color:black;
 	font-style: bold;
+}
+#categories-modal .modal-body a{
+	display:inline-block;
+	width:100%;
+}
+.page-title .search-query{
+	font-family: 'Lobster', cursive;
+	color:#3579BC;
+}
+#post-views thead{
+	background:#3579BC;
+}
+#post-views thead *{
+	color:white;
+}
+#post-views thead th.title-row{
+	padding:5px;
+}
+#post-views tbody{
+	background:#C7D4DF;
+}
+#post-views .tr-content{
+	border-top:1px solid white;
+	padding:3px;
 }

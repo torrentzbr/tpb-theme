@@ -22,11 +22,11 @@ get_header('home'); ?>
 	</div><!-- .col-md-6 col-md-offset-4 -->
 	<form method="get" id="searchform-home" class="col-md-12" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
 		<input type="text" class="col-md-12" name="s" id="s" placeholder="<?php esc_attr_e( 'Search Pirate', 'odin' ); ?>" required />
-		<div class="col-md-6 col-md-offset-2 col-xs-12">
+		<div class="col-md-11 col-md-offset-1 col-xs-12">
 			<?php
 			$categories = get_categories('hide_empty=0');
 			foreach ($categories as $category) {
-				$option = '<input type="radio" name="category_name" value="'.$category->slug.'"/>'.$category->cat_name;
+				$option = '<input type="radio" name="category_name" value="'.$category->slug.'"/><label>'.$category->cat_name.'</label>';
 				echo $option;
 			}
 			?>
