@@ -16,9 +16,15 @@
 get_header('home'); ?>
 	<header class="col-md-12 home">
 	</header><!-- .col-md-12 home -->
-	<div class="col-md-2 col-md-offset-5 col-xs-12" id="home-menu">
-		<a href="<?php echo home_url();?>" class="active"><?php _e('Search','odin'); ?></a> |
+	<div class="col-md-4 col-md-offset-4 col-xs-12" id="home-menu">
+		<a href="#" class="active"><?php _e('Search','odin'); ?></a> |
 		<a href="#" id="categories" data-toggle="modal" data-target="#categories-modal"><?php _e('Categories','odin'); ?></a>
+		<?php if(!is_user_logged_in()): ?>
+		    | <a href="<?php echo wp_login_url(); ?>"><?php _e('Create Account/Login','odin'); ?></a>
+		<?php endif; ?>
+		<?php if(is_user_logged_in()): ?>
+		    | <a href="<?php echo admin_url('post-new.php'); ?>"><?php _e('Upload Torrent','odin'); ?></a>
+		<?php endif; ?>
 	</div><!-- .col-md-6 col-md-offset-4 -->
 	<form method="get" id="searchform-home" class="col-md-12" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
 		<input type="text" class="col-md-12" name="s" id="s" placeholder="<?php esc_attr_e( 'Search Pirate', 'odin' ); ?>" required />

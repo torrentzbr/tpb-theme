@@ -272,9 +272,8 @@ require_once get_template_directory() . '/inc/template-tags.php';
 /**
  * Add fields
  */
+require_once get_template_directory() . '/inc/advanced-custom-fields/acf.php';
 require_once get_template_directory() . '/inc/torrent-fields.php';
-//require_once get_template_directory() . '/inc/advanced-custom-fields/acf.php';
-
 /**
  * Rename post type
  */
@@ -286,3 +285,10 @@ function change_post_label() {
     $submenu['edit.php'][10][0] = __('Add Torrent','odin');
 }
 add_action( 'admin_menu', 'change_post_label' );
+function upload_torrent( $mime_types ){
+
+    $mime_types['torrent'] = 'application/x-bittorrent';
+
+    return $mime_types;
+}
+add_filter( 'upload_mimes', 'upload_torrent', 1, 1 );

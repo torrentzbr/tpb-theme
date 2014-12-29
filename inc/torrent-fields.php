@@ -11,7 +11,7 @@ if(function_exists("register_field_group"))
 				'label' => 'Magnet Link',
 				'name' => 'magnet_link',
 				'type' => 'text',
-				'instructions' => __('Access <a href="http://torrent2magnet.com" target="blank">Torrent2Magnet</a> to generate your magnet link','odin'),
+				'instructions' => __('Access <a href="http://torrent2magnet.com" target="_blank">Torrent2Magnet</a> to generate your magnet link','odin'),
 				'required' => 1,
 				'default_value' => '',
 				'placeholder' => '',
@@ -57,5 +57,4 @@ if(function_exists("register_field_group"))
 		'menu_order' => 0,
 	));
 }
-
 ?>
