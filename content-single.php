@@ -32,7 +32,6 @@ parse_str($magnet,$magnet_array);
 			</div><!-- .col-md-6 infos -->
 		</div><!-- #post-infos.col-md-6 col-md-offset-2 -->
 		<div class="pull-right" id="post-thumb">
-			<img src="http://i.imgur.com/yPvfqRv.jpg">
 			<?php the_post_thumbnail( 'medium'); ?>
 		</div><!-- #post-thumb.col-md-4 pull-right -->
 		<div class="col-md-6 col-md-offset-4">

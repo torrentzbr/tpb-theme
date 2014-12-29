@@ -17,7 +17,7 @@ get_header('home'); ?>
 	<header class="col-md-12 home">
 	</header><!-- .col-md-12 home -->
 	<div class="col-md-2 col-md-offset-5 col-xs-12" id="home-menu">
-		<a href="#" class="active"><?php _e('Search','odin'); ?></a> |
+		<a href="<?php echo home_url();?>" class="active"><?php _e('Search','odin'); ?></a> |
 		<a href="#" id="categories" data-toggle="modal" data-target="#categories-modal"><?php _e('Categories','odin'); ?></a>
 	</div><!-- .col-md-6 col-md-offset-4 -->
 	<form method="get" id="searchform-home" class="col-md-12" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">

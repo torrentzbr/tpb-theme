@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Odin v2.2.0\n"
+"Project-Id-Version: Odin v2.2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-10 07:21-0300\n"
-"PO-Revision-Date: 2014-02-10 07:21-0300\n"
+"PO-Revision-Date: 2014-12-29 02:24:45+0000\n"
 "Last-Translator: Rafael Funchal <rafaelfunchal@gmail.com>\n"
 "Language-Team: WordPress Brasil Group\n"
 "MIME-Version: 1.0\n"
@@ -11,634 +11,2907 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 1.5.4\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
-"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
 "X-Poedit-Basepath: .\n"
-"X-Textdomain-Support: yes\n"
+"X-Poedit-Bookmarks: \n"
 "X-Poedit-SearchPath-0: ..\n"
+"X-Textdomain-Support: yes"
 
-# @ odin
-#: ../404.php:15
+#: 404.php:15
+#@ odin
 msgid "Not Found"
 msgstr "Nada Encontrado"
 
-# @ odin
-#: ../404.php:19
+#: 404.php:19
+#@ odin
 msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr ""
-"Parece que nada foi encontrado neste local. Talvez tentar uma pesquisa?"
+msgstr "Parece que nada foi encontrado neste local. Talvez tentar uma pesquisa?"
 
-# @ odin
-#: ../archive.php:30
+#: archive.php:30
 #, php-format
+#@ odin
 msgid "Daily Archives: %s"
 msgstr "Arquivos Diários: %s"
 
-# @ odin
-#: ../archive.php:33
+#: archive.php:33
 #, php-format
+#@ odin
 msgid "Monthly Archives: %s"
 msgstr "Arquivos Mensais: %s"
 
-# @ odin
-#: ../archive.php:33
+#: archive.php:33
+#@ odin
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "F Y"
 
-# @ odin
-#: ../archive.php:36
+#: archive.php:36
 #, php-format
+#@ odin
 msgid "Yearly Archives: %s"
 msgstr "Arquivos Anuais: %s"
 
-# @ odin
-#: ../archive.php:36
+#: archive.php:36
+#@ odin
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr "Y"
 
-# @ odin
-#: ../archive.php:39
+#: archive.php:39
+#@ odin
 msgid "Archives"
 msgstr "Arquivos"
 
-# @ odin
-#: ../audio.php:24 ../video.php:24
+#: audio.php:24
+#: video.php:24
+#@ odin
 msgid "URL:"
 msgstr "URL:"
 
-# @ odin
-#: ../audio.php:30 ../image.php:40 ../video.php:30
+#: audio.php:30
+#: image.php:40
+#: video.php:30
 #, php-format
+#@ odin
 msgid "Back to %s"
 msgstr "Voltar para %s"
 
-# @ odin
-#: ../audio.php:30 ../image.php:40 ../video.php:30
+#: audio.php:30
+#: image.php:40
+#: video.php:30
 #, php-format
+#@ odin
 msgid "<span class=\"meta-nav\">&larr;</span> %s"
 msgstr "<span class=\"meta-nav\">&larr;</span> %s"
 
-# @ odin
-#: ../author.php:30
+#: author.php:30
 #, php-format
+#@ odin
 msgid "All posts by %s"
 msgstr "Todas as publicações por %s"
 
-# @ odin
-#: ../category.php:19
-#, php-format
-msgid "Category Archives: %s"
-msgstr "Arquivo da Categoria: %s"
+#: comments.php:13
+#@ odin
+msgid "This post is password protected. Enter the password to view all comments."
+msgstr "Esse post é protegido por senha. Informe a senha para ver todos os comentários."
 
-# @ odin
-#: ../comments.php:13
-msgid ""
-"This post is password protected. Enter the password to view all comments."
-msgstr ""
-"Esse post é protegido por senha. Informe a senha para ver todos os "
-"comentários."
-
-# @ odin
-#: ../comments.php:22
+#: comments.php:22
+#@ odin
 msgid "0 Comments"
 msgstr "0 Comentários"
 
-# @ odin
-#: ../comments.php:22 ../content.php:53
+#: comments.php:22
+#@ odin
 msgid "1 Comment"
 msgstr "1 Comentário"
 
-# @ odin
-#: ../comments.php:22 ../content.php:53
+#: comments.php:22
+#@ odin
 msgid "% Comments"
 msgstr "% Comentários"
 
-# @ odin
-#: ../comments.php:23
+#: comments.php:23
+#@ odin
 msgid "to"
 msgstr "para"
 
-# @ odin
-#: ../comments.php:28 ../comments.php:37
+#: comments.php:28
+#: comments.php:37
+#@ odin
 msgid "&larr; Old Comments"
 msgstr "&larr; Comentários Antigos"
 
-# @ odin
-#: ../comments.php:29 ../comments.php:38
+#: comments.php:29
+#: comments.php:38
+#@ odin
 msgid "New Comments &rarr;"
 msgstr "Novos Comentários &rarr;"
 
-# @ odin
-#: ../comments.php:43
+#: comments.php:43
+#@ odin
 msgid "Comments closed."
 msgstr "Comentários não são permitidos."
 
-# @ odin
-#: ../comments.php:54
+#: comments.php:54
+#@ odin
 msgid "Comment"
 msgstr "Comentário"
 
-# @ odin
-#: ../comments.php:56
+#: comments.php:56
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:420
+#: inc/advanced-custom-fields/core/fields/file.php:109
+#@ odin
+#@ acf
 msgid "Name"
 msgstr "Nome"
 
-# @ odin
-#: ../comments.php:57
+#: comments.php:57
+#@ odin
 msgid "E-mail"
 msgstr "E-mail"
 
-# @ odin
-#: ../comments.php:58
+#: comments.php:58
+#@ odin
 msgid "Website"
 msgstr "Website"
 
-# @ odin
-#: ../content-none.php:11
+#: content-none.php:11
+#@ odin
 msgid "Nothing Found"
 msgstr "Nada Encontrado"
 
-# @ odin
-#: ../content-none.php:17
+#: content-none.php:17
 #, php-format
-msgid ""
-"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
-"Pronto para publicar o seu primeiro post? <a href=\"%1$s\">Comece agora "
-"aqui</a>."
+#@ odin
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pronto para publicar o seu primeiro post? <a href=\"%1$s\">Comece agora aqui</a>."
 
-# @ odin
-#: ../content-none.php:21
-msgid ""
-"Sorry, but nothing matched your search terms. Please try again with some "
-"different keywords."
-msgstr ""
-"Desculpe, mas nada foi encontrado com os termos da sua pesquisa. Por favor, "
-"tente novamente com algumas palavras-chave diferentes."
+#: content-none.php:21
+#@ odin
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Desculpe, mas nada foi encontrado com os termos da sua pesquisa. Por favor, tente novamente com algumas palavras-chave diferentes."
 
-# @ odin
-#: ../content-none.php:26
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help."
-msgstr ""
-"Parece que não conseguimos encontrar o que você está procurando. Talvez a "
-"pesquisa pode ajudar."
+#: content-none.php:26
+#@ odin
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que não conseguimos encontrar o que você está procurando. Talvez a pesquisa pode ajudar."
 
-# @ odin
-#: ../content-page.php:17 ../content.php:38
+#: content-page.php:17
+#@ odin
 msgid "Pages:"
 msgstr "Páginas:"
 
-# @ odin
-#: ../content.php:36
-msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Continue lendo <span class=\"meta-nav\">&rarr;</span>"
-
-# @ odin
-#: ../content.php:49
-msgid "Posted in:"
-msgstr "Publicado em:"
-
-# @ odin
-#: ../content.php:49
-msgctxt "Used between list items, there is a space after the comma."
-msgid ", "
-msgstr ", "
-
-# @ odin
-#: ../content.php:51
-msgid "Tagged as:"
-msgstr "Marcado como:"
-
-# @ odin
-#: ../content.php:53
-msgid "Leave a comment"
-msgstr "Deixe um comentário"
-
-# @ odin
-#: ../footer.php:17
+#: footer.php:17
+#@ odin
 msgid "All rights reserved"
 msgstr "Todos os direitos reservados"
 
-# @ odin
-#: ../footer.php:17
+#: footer.php:17
 #, php-format
-msgid ""
-"Powered by the <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">Odin</a> "
-"forces and <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">WordPress</a>."
-msgstr ""
-"Powered by the <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">Odin</a> "
-"forces and <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">WordPress</a>."
+#@ odin
+msgid "Powered by the <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">Odin</a> forces and <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">WordPress</a>."
+msgstr "Powered by the <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">Odin</a> forces and <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">WordPress</a>."
 
-# @ odin
-#: ../functions.php:64
+#: functions.php:65
+#@ odin
 msgid "Main Menu"
 msgstr "Menu Principal"
 
-# @ odin
-#: ../functions.php:157
+#: functions.php:158
+#@ odin
 msgid "Main Sidebar"
 msgstr "Sidebar Principal"
 
-# @ odin
-#: ../functions.php:159
+#: functions.php:160
+#@ odin
 msgid "Site Main Sidebar"
 msgstr "Sidebar principal do site"
 
-# @ odin
-#: ../header.php:53
-msgid "Skip to content"
-msgstr "Pular para o conteúdo"
-
-# @ odin
-#: ../header.php:56
-msgid "Toggle navigation"
-msgstr "Alternar navegação"
-
-# @ odin
-#: ../header.php:83
-msgid "Search:"
-msgstr "Pesquisar:"
-
-# @ odin
-#: ../header.php:87 ../searchform.php:12
+#: front-page.php:20
+#: front-page.php:35
+#: header.php:39
+#: header.php:54
+#: inc/advanced-custom-fields/core/fields/relationship.php:653
+#: searchform.php:12
+#: searchform.php:15
+#@ odin
+#@ acf
 msgid "Search"
 msgstr "Pesquisa"
 
-# @ odin
-#: ../image.php:23
+#: image.php:23
 #, php-format
+#@ odin
 msgid "Image total size: %s pixels"
 msgstr "Tamanho total da imagem: %s pixels"
 
-# @ odin
-#: ../image.php:23
+#: image.php:23
+#@ odin
 msgid "Full image link"
 msgstr "Link da imagem completa"
 
-# @ odin
-#: ../image.php:34
+#: image.php:34
+#@ odin
 msgid "&larr; Previous image"
 msgstr "&larr; Imagem anterior"
 
-# @ odin
-#: ../image.php:35
+#: image.php:35
+#@ odin
 msgid "Next image &rarr;"
 msgstr "Próxima imagem &rarr;"
 
-# @ odin
-#: ../search.php:17
+#: search.php:16
 #, php-format
+#@ odin
 msgid "Search Results for: %s"
 msgstr "Resultado de Busca por: %s"
 
-# @ odin
-#: ../tag.php:21
+#: tag.php:21
 #, php-format
+#@ odin
 msgid "Tag Archives: %s"
 msgstr "Arquivo da Tag: %s"
 
-# @ odin
-#: ../core/helpers.php:56
+#: core/helpers.php:61
+#@ odin
 msgid "&laquo; Previous"
 msgstr "&laquo; Anterior"
 
-# @ odin
-#: ../core/helpers.php:57
+#: core/helpers.php:62
+#@ odin
 msgid "Next &raquo;"
 msgstr "Próximo &raquo;"
 
-# @ odin
-#: ../core/helpers.php:99
+#: core/helpers.php:104
+#@ odin
 msgid "Related Posts"
 msgstr "Artigos Relacionados"
 
-# @ odin
-#: ../core/helpers.php:228
+#: core/helpers.php:235
+#@ odin
 msgid "Home"
 msgstr "Início"
 
-# @ odin
-#: ../core/helpers.php:320
+#: core/helpers.php:324
 #, php-format
+#@ odin
 msgid "%sCategory: %s%s"
 msgstr "%sCategoria: %s%s"
 
-# @ odin
-#: ../core/helpers.php:324
+#: core/helpers.php:328
 #, php-format
+#@ odin
 msgid "%sTag: %s%s"
 msgstr "%sTag: %s%s"
 
-# @ odin
-#: ../core/helpers.php:332
+#: core/helpers.php:336
 #, php-format
+#@ odin
 msgid "%sSearch result for: &quot;%s&quot;%s"
 msgstr "%sResultado da busca para: &quot;%s&quot;%s"
 
-# @ odin
-#: ../core/helpers.php:339
+#: core/helpers.php:342
+#@ odin
 msgid "Posted by"
 msgstr "Publicado por"
 
-# @ odin
-#: ../core/helpers.php:378
+#: core/helpers.php:386
+#@ odin
 msgid "404 Error"
 msgstr "Erro 404"
 
-# @ odin
-#: ../core/helpers.php:385 ../core/helpers.php:387 ../inc/optimize.php:27
+#: core/helpers.php:393
+#: core/helpers.php:395
+#: inc/optimize.php:27
 #, php-format
+#@ odin
 msgid "Page %s"
 msgstr "Página %s"
 
-# @ odin
-#: ../core/classes/class-bootstrap-nav.php:203
+#: core/classes/class-bootstrap-nav.php:203
+#@ odin
 msgid "Add a menu"
 msgstr "Adicionar um menu"
 
-# @ odin
-#: ../core/classes/class-contact-form.php:170
+#: core/classes/class-contact-form.php:182
 #, php-format
+#@ odin
 msgid "Message sent by the form %s in %s at %s"
 msgstr "Mensagem enviada pelo formulário %s em %s às %s"
 
-# @ odin
-#: ../core/classes/class-metabox.php:78 ../core/classes/class-metabox.php:424
-#: ../core/classes/class-theme-options.php:89
-#: ../core/classes/class-theme-options.php:616
+#: core/classes/class-metabox.php:87
+#: core/classes/class-metabox.php:470
+#: core/classes/class-theme-options.php:89
+#: core/classes/class-theme-options.php:622
+#: core/classes/class-user-meta.php:70
+#: core/classes/class-user-meta.php:409
+#@ odin
 msgid "Add images in gallery"
 msgstr "Adicionar imagens na galeria"
 
-# @ odin
-#: ../core/classes/class-metabox.php:79
-#: ../core/classes/class-theme-options.php:90
+#: core/classes/class-metabox.php:88
+#: core/classes/class-theme-options.php:90
+#: core/classes/class-user-meta.php:71
+#@ odin
 msgid "Add in gallery"
 msgstr "Adicionar na galeria"
 
-# @ odin
-#: ../core/classes/class-metabox.php:80 ../core/classes/class-metabox.php:388
-#: ../core/classes/class-metabox.php:413
-#: ../core/classes/class-theme-options.php:91
-#: ../core/classes/class-theme-options.php:570
-#: ../core/classes/class-theme-options.php:605
+#: core/classes/class-metabox.php:89
+#: core/classes/class-metabox.php:431
+#: core/classes/class-metabox.php:459
+#: core/classes/class-theme-options.php:91
+#: core/classes/class-theme-options.php:573
+#: core/classes/class-theme-options.php:611
+#: core/classes/class-user-meta.php:72
+#: core/classes/class-user-meta.php:370
+#: core/classes/class-user-meta.php:398
+#@ odin
 msgid "Remove image"
 msgstr "Remover imagem"
 
-# @ odin
-#: ../core/classes/class-metabox.php:81
-#: ../core/classes/class-theme-options.php:92
+#: core/classes/class-metabox.php:90
+#: core/classes/class-theme-options.php:92
+#: core/classes/class-user-meta.php:73
+#@ odin
 msgid "Choose a file"
 msgstr "Selecione um arquivo"
 
-# @ odin
-#: ../core/classes/class-metabox.php:82
-#: ../core/classes/class-theme-options.php:93
+#: core/classes/class-metabox.php:91
+#: core/classes/class-theme-options.php:93
+#: core/classes/class-user-meta.php:74
+#@ odin
 msgid "Add file"
 msgstr "Adicionar arquivo"
 
-# @ odin
-#: ../core/classes/class-metabox.php:366
-#: ../core/classes/class-theme-options.php:537
+#: core/classes/class-metabox.php:408
+#: core/classes/class-theme-options.php:539
+#: core/classes/class-user-meta.php:347
+#@ odin
 msgid "Select file"
 msgstr "Selecionar arquivo"
 
-# @ odin
-#: ../core/classes/class-metabox.php:388
-#: ../core/classes/class-theme-options.php:570
+#: core/classes/class-metabox.php:431
+#: core/classes/class-theme-options.php:573
+#: core/classes/class-user-meta.php:370
+#@ odin
 msgid "Select image"
 msgstr "Selecionar imagem"
 
-# @ odin
-#: ../core/classes/class-post-type.php:73
-#: ../core/classes/class-post-type.php:80
-#: ../core/classes/class-taxonomy.php:75 ../core/classes/class-taxonomy.php:84
+#: core/classes/class-post-type.php:73
+#: core/classes/class-post-type.php:80
+#: core/classes/class-taxonomy.php:75
+#: core/classes/class-taxonomy.php:84
 #, php-format
+#@ odin
 msgid "%ss"
 msgstr "%ss"
 
-# @ odin
-#: ../core/classes/class-post-type.php:74
-#: ../core/classes/class-taxonomy.php:76
+#: core/classes/class-post-type.php:74
+#: core/classes/class-taxonomy.php:76
 #, php-format
+#@ odin
 msgid "%s"
 msgstr "%s"
 
-# @ odin
-#: ../core/classes/class-post-type.php:75
-#: ../core/classes/class-taxonomy.php:78
+#: core/classes/class-post-type.php:75
+#: core/classes/class-taxonomy.php:78
 #, php-format
+#@ odin
 msgid "View %s"
 msgstr "Ver %s"
 
-# @ odin
-#: ../core/classes/class-post-type.php:76
-#: ../core/classes/class-taxonomy.php:79
+#: core/classes/class-post-type.php:76
+#: core/classes/class-taxonomy.php:79
 #, php-format
+#@ odin
 msgid "Edit %s"
 msgstr "Editar %s"
 
-# @ odin
-#: ../core/classes/class-post-type.php:77
-#: ../core/classes/class-taxonomy.php:80
+#: core/classes/class-post-type.php:77
+#: core/classes/class-taxonomy.php:80
 #, php-format
+#@ odin
 msgid "Search %s"
 msgstr "Pesquisar %s"
 
-# @ odin
-#: ../core/classes/class-post-type.php:78
-#: ../core/classes/class-taxonomy.php:81
+#: core/classes/class-post-type.php:78
+#: core/classes/class-taxonomy.php:81
 #, php-format
+#@ odin
 msgid "Update %s"
 msgstr "Atualizar  %s"
 
-# @ odin
-#: ../core/classes/class-post-type.php:79
-#: ../core/classes/class-taxonomy.php:82 ../core/classes/class-taxonomy.php:83
+#: core/classes/class-post-type.php:79
+#: core/classes/class-taxonomy.php:82
+#: core/classes/class-taxonomy.php:83
 #, php-format
+#@ odin
 msgid "Parent %s:"
 msgstr "Parente %s"
 
-# @ odin
-#: ../core/classes/class-post-type.php:81
+#: core/classes/class-post-type.php:81
+#: inc/advanced-custom-fields/acf.php:487
+#@ odin
+#@ acf
 msgid "Add New"
 msgstr "Adicionar Novo"
 
-# @ odin
-#: ../core/classes/class-post-type.php:82
-#: ../core/classes/class-taxonomy.php:85
+#: core/classes/class-post-type.php:82
+#: core/classes/class-taxonomy.php:85
 #, php-format
+#@ odin
 msgid "Add New %s"
 msgstr "Adicionar Novo %s"
 
-# @ odin
-#: ../core/classes/class-post-type.php:83
-#: ../core/classes/class-taxonomy.php:86
+#: core/classes/class-post-type.php:83
+#: core/classes/class-taxonomy.php:86
 #, php-format
+#@ odin
 msgid "New %s"
 msgstr "Novo %s"
 
-# @ odin
-#: ../core/classes/class-post-type.php:84
-#: ../core/classes/class-taxonomy.php:87
+#: core/classes/class-post-type.php:84
+#: core/classes/class-taxonomy.php:87
 #, php-format
+#@ odin
 msgid "All %ss"
 msgstr "Todos os %ss"
 
-# @ odin
-#: ../core/classes/class-post-type.php:85
+#: core/classes/class-post-type.php:85
 #, php-format
+#@ odin
 msgid "No %s found"
 msgstr "Nenhum %s encontrado"
 
-# @ odin
-#: ../core/classes/class-post-type.php:86
+#: core/classes/class-post-type.php:86
 #, php-format
+#@ odin
 msgid "No %s found in Trash"
 msgstr "Nenhum %s encontrado na Lixeira"
 
-# @ odin
-#: ../core/classes/class-taxonomy.php:77
+#: core/classes/class-taxonomy.php:77
 #, php-format
+#@ odin
 msgid "Add or Remove %ss"
 msgstr "Adicionar ou Remover %ss"
 
-# @ odin
-#: ../core/classes/class-taxonomy.php:88
+#: core/classes/class-taxonomy.php:88
 #, php-format
+#@ odin
 msgid "Separate %ss with comma"
 msgstr "Separe %ss com vírgula"
 
-# @ odin
-#: ../core/classes/class-taxonomy.php:89
+#: core/classes/class-taxonomy.php:89
 #, php-format
+#@ odin
 msgid "Choose from %ss most used"
 msgstr "Escolher entre os %ss mais usados"
 
-# @ odin
-#: ../core/classes/abstracts/abstract-front-end-form.php:234
+#: core/classes/abstracts/abstract-front-end-form.php:290
+#@ odin
 msgid "Submit"
 msgstr "Enviar"
 
-# @ odin
-#: ../core/classes/abstracts/abstract-front-end-form.php:276
+#: core/classes/abstracts/abstract-front-end-form.php:333
+#@ odin
 msgid "Form submitted successfully!"
 msgstr "Formulário enviado com sucesso!"
 
-# @ odin
-#: ../core/classes/abstracts/abstract-front-end-form.php:514
+#: core/classes/abstracts/abstract-front-end-form.php:608
+#: core/classes/abstracts/abstract-front-end-form.php:620
 #, php-format
+#@ odin
 msgid "%s is required."
 msgstr "%s é um campo obrigatório."
 
-# @ odin
-#: ../core/classes/abstracts/abstract-front-end-form.php:520
+#: core/classes/abstracts/abstract-front-end-form.php:614
 #, php-format
+#@ odin
 msgid "%s must be an email address valid."
 msgstr "%s precisa ser um endereço de email válido"
 
-#: ../core/classes/widgets/class-widget-like-box.php:20
+#: core/classes/widgets/class-widget-like-box.php:20
+#@ odin
 msgid "Facebook Like Box"
 msgstr "Caixa de Curtir do Facebook"
 
-#: ../core/classes/widgets/class-widget-like-box.php:21
+#: core/classes/widgets/class-widget-like-box.php:21
+#@ odin
 msgid "This widget includes a facebook like box on your blog"
 msgstr "Esse widget inclui a caixa de curtir do Facebook em seu site"
 
-#: ../core/classes/widgets/class-widget-like-box.php:48
+#: core/classes/widgets/class-widget-like-box.php:48
+#@ odin
 msgid "Title:"
 msgstr "Título:"
 
-#: ../core/classes/widgets/class-widget-like-box.php:54
+#: core/classes/widgets/class-widget-like-box.php:54
+#@ odin
 msgid "Facebook Page URL:"
 msgstr "URL da página do Facebook:"
 
-#: ../core/classes/widgets/class-widget-like-box.php:60
+#: core/classes/widgets/class-widget-like-box.php:60
+#@ odin
 msgid "Width:"
 msgstr "Largura:"
 
-#: ../core/classes/widgets/class-widget-like-box.php:66
+#: core/classes/widgets/class-widget-like-box.php:66
+#@ odin
 msgid "Height:"
 msgstr "Altura:"
 
-#: ../core/classes/widgets/class-widget-like-box.php:72
+#: core/classes/widgets/class-widget-like-box.php:72
+#@ odin
 msgid "Color Scheme:"
 msgstr "Esquema de cores:"
 
-#: ../core/classes/widgets/class-widget-like-box.php:74
+#: core/classes/widgets/class-widget-like-box.php:74
+#@ odin
 msgid "Dark"
 msgstr "Escuro"
 
-#: ../core/classes/widgets/class-widget-like-box.php:75
+#: core/classes/widgets/class-widget-like-box.php:75
+#@ odin
 msgid "Light"
 msgstr "Claro"
 
-#: ../core/classes/widgets/class-widget-like-box.php:81
+#: core/classes/widgets/class-widget-like-box.php:81
+#@ odin
 msgid "Show Friends Faces"
 msgstr "Exibir rostos dos amigos"
 
-#: ../core/classes/widgets/class-widget-like-box.php:86
+#: core/classes/widgets/class-widget-like-box.php:86
+#@ odin
 msgid "Show Posts"
 msgstr "Exibir atualizações"
 
-#: ../core/classes/widgets/class-widget-like-box.php:91
+#: core/classes/widgets/class-widget-like-box.php:91
+#@ odin
 msgid "Show Header"
 msgstr "Exibir cabeçalho"
 
-#: ../core/classes/widgets/class-widget-like-box.php:96
+#: core/classes/widgets/class-widget-like-box.php:96
+#@ odin
 msgid "Show Border"
 msgstr "Exibir borda"
 
-# @ odin
-#: ../inc/comments-loop.php:23
+#: inc/comments-loop.php:23
+#@ odin
 msgid "Pingback:"
 msgstr "Pingback:"
 
-# @ odin
-#: ../inc/comments-loop.php:23 ../inc/comments-loop.php:33
+#: inc/advanced-custom-fields/core/fields/image.php:84
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:108
+#: inc/comments-loop.php:23
+#: inc/comments-loop.php:33
+#@ acf
+#@ odin
 msgid "Edit"
 msgstr "Editar"
 
-# @ odin
-#: ../inc/comments-loop.php:32
+#: inc/comments-loop.php:32
+#@ odin
 msgid "in"
 msgstr "em"
 
-# @ odin
-#: ../inc/comments-loop.php:32
+#: inc/comments-loop.php:32
+#@ odin
 msgid "at"
 msgstr "as"
 
-# @ odin
-#: ../inc/comments-loop.php:32
+#: inc/comments-loop.php:32
+#@ odin
 msgid "said:"
 msgstr "disse:"
 
-# @ odin
-#: ../inc/comments-loop.php:36
+#: inc/comments-loop.php:36
+#@ odin
 msgid "Your comment is awaiting moderation."
 msgstr "Seu comentário está aguardando moderação."
 
-# @ odin
-#: ../inc/comments-loop.php:41
+#: inc/comments-loop.php:41
+#@ odin
 msgid "Respond"
 msgstr "Responder"
 
-# @ odin
-#: ../inc/template-tags.php:62
+#: inc/template-tags.php:62
+#@ odin
 msgid "Sticky"
 msgstr "Destacado"
 
-# @ odin
-#: ../inc/template-tags.php:67
+#: inc/template-tags.php:67
+#@ odin
 msgid "Posted in"
 msgstr "Publicado em"
 
-# @ odin
-#: ../inc/template-tags.php:70
+#: inc/template-tags.php:70
+#@ odin
 msgid "by"
 msgstr "por"
+
+#: category.php:16
+#, php-format
+#@ odin
+msgid "<span class=\"search-query\">Category %s</span>"
+msgstr "<span class=\"search-query\">Categoria %s</span>"
+
+#: category.php:26
+#: search.php:26
+#@ odin
+msgid "Date"
+msgstr "Data"
+
+#: category.php:27
+#: inc/advanced-custom-fields/core/fields/file.php:113
+#: search.php:27
+#@ odin
+#@ acf
+msgid "Size"
+msgstr "Tamanho"
+
+#: content-single.php:20
+#@ odin
+msgid "Category:"
+msgstr "Categoria:"
+
+#: content-single.php:24
+#@ odin
+msgid "Size:"
+msgstr "Tamanho:"
+
+#: content-single.php:28
+#@ odin
+msgid "Hash:"
+msgstr "Hash:"
+
+#: content-single.php:39
+#@ odin
+msgid "Magnet Link"
+msgstr "Magnet Link"
+
+#: content.php:26
+#@ default
+msgid "Category: "
+msgstr ""
+
+#: front-page.php:21
+#: front-page.php:46
+#: header.php:40
+#: header.php:65
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:107
+#@ odin
+#@ acf
+msgid "Categories"
+msgstr "Categorias"
+
+#: front-page.php:24
+#: header.php:43
+#@ odin
+msgid "Search Pirate"
+msgstr "Busca Pirata"
+
+#: functions.php:284
+#: functions.php:285
+#@ odin
+msgid "Torrents"
+msgstr "Torrents"
+
+#: functions.php:286
+#@ odin
+msgid "Add Torrent"
+msgstr "Adicionar Torrent"
+
+#: inc/advanced-custom-fields/acf.php:485
+#@ acf
+msgid "Field&nbsp;Groups"
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:486
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:214
+#@ acf
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:488
+#@ acf
+msgid "Add New Field Group"
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:489
+#@ acf
+msgid "Edit Field Group"
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:490
+#@ acf
+msgid "New Field Group"
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:491
+#@ acf
+msgid "View Field Group"
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:492
+#@ acf
+msgid "Search Field Groups"
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:493
+#@ acf
+msgid "No Field Groups found"
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:494
+#@ acf
+msgid "No Field Groups found in Trash"
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:579
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:99
+#@ acf
+msgid "Custom Fields"
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:597
+#: inc/advanced-custom-fields/acf.php:600
+#@ acf
+msgid "Field group updated."
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:598
+#@ acf
+msgid "Custom field updated."
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:599
+#@ acf
+msgid "Custom field deleted."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: inc/advanced-custom-fields/acf.php:602
+#, php-format
+#@ acf
+msgid "Field group restored to revision from %s"
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:603
+#@ acf
+msgid "Field group published."
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:604
+#@ acf
+msgid "Field group saved."
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:605
+#@ acf
+msgid "Field group submitted."
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:606
+#@ acf
+msgid "Field group scheduled for."
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:607
+#@ acf
+msgid "Field group draft updated."
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:742
+#@ acf
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:743
+#@ acf
+msgid "Medium"
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:744
+#@ acf
+msgid "Large"
+msgstr ""
+
+#: inc/advanced-custom-fields/acf.php:745
+#@ acf
+msgid "Full"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/actions/export.php:26
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:58
+#@ acf
+msgid "Error"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/actions/export.php:33
+#@ acf
+msgid "No ACF groups selected"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/api.php:1171
+#@ acf
+msgid "Update"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/api.php:1172
+#@ acf
+msgid "Post updated"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:42
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:307
+#@ acf
+msgid "Add-ons"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:130
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:429
+#@ acf
+msgid "Repeater Field"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:131
+#@ acf
+msgid "Create infinite rows of repeatable data with this versatile interface!"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:137
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:437
+#@ acf
+msgid "Gallery Field"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:138
+#@ acf
+msgid "Create image galleries in a simple and intuitive interface!"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:144
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:445
+#@ acf
+msgid "Options Page"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:145
+#@ acf
+msgid "Create global data to use throughout your website!"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:151
+#@ acf
+msgid "Flexible Content Field"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:152
+#@ acf
+msgid "Create unique designs with a flexible content layout manager!"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:161
+#@ acf
+msgid "Gravity Forms Field"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:162
+#@ acf
+msgid "Creates a select field populated with Gravity Forms!"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:168
+#@ acf
+msgid "Date & Time Picker"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:169
+#@ acf
+msgid "jQuery date & time picker"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:175
+#@ acf
+msgid "Location Field"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:176
+#@ acf
+msgid "Find addresses and coordinates of a desired location"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:182
+#@ acf
+msgid "Contact Form 7 Field"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:183
+#@ acf
+msgid "Assign one or more contact form 7 forms to a post"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:193
+#@ acf
+msgid "Advanced Custom Fields Add-Ons"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:196
+#@ acf
+msgid "The following Add-ons are available to increase the functionality of the Advanced Custom Fields plugin."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:197
+#@ acf
+msgid "Each Add-on can be installed as a separate plugin (receives updates) or included in your theme (does not receive updates)."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:219
+#: inc/advanced-custom-fields/core/controllers/addons.php:240
+#@ acf
+msgid "Installed"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:221
+#@ acf
+msgid "Purchase & Install"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/addons.php:242
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:422
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:431
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:439
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:447
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:455
+#@ acf
+msgid "Download"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:50
+#: inc/advanced-custom-fields/core/controllers/export.php:159
+#@ acf
+msgid "Export"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:216
+#@ acf
+msgid "Export Field Groups"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:221
+#@ acf
+msgid "Field Groups"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:222
+#@ acf
+msgid "Select the field groups to be exported"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:239
+#: inc/advanced-custom-fields/core/controllers/export.php:252
+#@ acf
+msgid "Export to XML"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:242
+#: inc/advanced-custom-fields/core/controllers/export.php:267
+#@ acf
+msgid "Export to PHP"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:253
+#@ acf
+msgid "ACF will create a .xml export file which is compatible with the native WP import plugin."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:254
+#@ acf
+msgid "Imported field groups <b>will</b> appear in the list of editable field groups. This is useful for migrating fields groups between Wp websites."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:256
+#@ acf
+msgid "Select field group(s) from the list and click \"Export XML\""
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:257
+#@ acf
+msgid "Save the .xml file when prompted"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:258
+#@ acf
+msgid "Navigate to Tools &raquo; Import and select WordPress"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:259
+#@ acf
+msgid "Install WP import plugin if prompted"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:260
+#@ acf
+msgid "Upload and import your exported .xml file"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:261
+#@ acf
+msgid "Select your user and ignore Import Attachments"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:262
+#@ acf
+msgid "That's it! Happy WordPressing"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:268
+#@ acf
+msgid "ACF will create the PHP code to include in your theme."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:269
+#: inc/advanced-custom-fields/core/controllers/export.php:310
+#@ acf
+msgid "Registered field groups <b>will not</b> appear in the list of editable field groups. This is useful for including fields in themes."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:270
+#: inc/advanced-custom-fields/core/controllers/export.php:311
+#@ acf
+msgid "Please note that if you export and register field groups within the same WP, you will see duplicate fields on your edit screens. To fix this, please move the original field group to the trash or remove the code from your functions.php file."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:272
+#@ acf
+msgid "Select field group(s) from the list and click \"Create PHP\""
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:273
+#: inc/advanced-custom-fields/core/controllers/export.php:302
+#@ acf
+msgid "Copy the PHP code generated"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:274
+#: inc/advanced-custom-fields/core/controllers/export.php:303
+#@ acf
+msgid "Paste into your functions.php file"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:275
+#: inc/advanced-custom-fields/core/controllers/export.php:304
+#@ acf
+msgid "To activate any Add-ons, edit and use the code in the first few lines."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:295
+#@ acf
+msgid "Export Field Groups to PHP"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:300
+#: inc/advanced-custom-fields/core/fields/tab.php:65
+#@ acf
+msgid "Instructions"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:309
+#@ acf
+msgid "Notes"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:316
+#@ acf
+msgid "Include in theme"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:317
+#@ acf
+msgid "The Advanced Custom Fields plugin can be included within a theme. To do so, move the ACF plugin inside your theme and add the following code to your functions.php file:"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:323
+#@ acf
+msgid "To remove all visual interfaces from the ACF plugin, you can use a constant to enable lite mode. Add the following code to your functions.php file <b>before</b> the include_once code:"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:331
+#@ acf
+msgid "Back to export"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/export.php:400
+#@ acf
+msgid "No field groups were selected"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:358
+#@ acf
+msgid "Move to trash. Are you sure?"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:359
+#@ acf
+msgid "checked"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:360
+#@ acf
+msgid "No toggle fields available"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:361
+#@ acf
+msgid "Field group title is required"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:362
+#@ acf
+msgid "copy"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:363
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:62
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:159
+#@ acf
+msgid "or"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:364
+#: inc/advanced-custom-fields/core/controllers/field_group.php:395
+#: inc/advanced-custom-fields/core/controllers/field_group.php:457
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:148
+#@ acf
+msgid "Fields"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:365
+#@ acf
+msgid "Parent fields"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:366
+#@ acf
+msgid "Sibling fields"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:367
+#@ acf
+msgid "Hide / Show All"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:396
+#@ acf
+msgid "Location"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:397
+#@ acf
+msgid "Options"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:459
+#@ acf
+msgid "Show Field Key:"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:460
+#: inc/advanced-custom-fields/core/fields/page_link.php:138
+#: inc/advanced-custom-fields/core/fields/page_link.php:159
+#: inc/advanced-custom-fields/core/fields/post_object.php:328
+#: inc/advanced-custom-fields/core/fields/post_object.php:349
+#: inc/advanced-custom-fields/core/fields/select.php:224
+#: inc/advanced-custom-fields/core/fields/select.php:243
+#: inc/advanced-custom-fields/core/fields/taxonomy.php:347
+#: inc/advanced-custom-fields/core/fields/user.php:332
+#: inc/advanced-custom-fields/core/fields/wysiwyg.php:335
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:196
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:219
+#@ acf
+msgid "No"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:461
+#: inc/advanced-custom-fields/core/fields/page_link.php:137
+#: inc/advanced-custom-fields/core/fields/page_link.php:158
+#: inc/advanced-custom-fields/core/fields/post_object.php:327
+#: inc/advanced-custom-fields/core/fields/post_object.php:348
+#: inc/advanced-custom-fields/core/fields/select.php:223
+#: inc/advanced-custom-fields/core/fields/select.php:242
+#: inc/advanced-custom-fields/core/fields/taxonomy.php:346
+#: inc/advanced-custom-fields/core/fields/user.php:331
+#: inc/advanced-custom-fields/core/fields/wysiwyg.php:334
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:195
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:218
+#@ acf
+msgid "Yes"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:633
+#@ acf
+msgid "Front Page"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:634
+#@ acf
+msgid "Posts Page"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:635
+#@ acf
+msgid "Top Level Page (parent of 0)"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:636
+#@ acf
+msgid "Parent Page (has children)"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:637
+#@ acf
+msgid "Child Page (has parent)"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:645
+#@ acf
+msgid "Default Template"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:723
+#@ default
+msgid "Publish"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:724
+#@ default
+msgid "Pending Review"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:725
+#@ default
+msgid "Draft"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:726
+#@ default
+msgid "Future"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:727
+#@ default
+msgid "Private"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:728
+#@ default
+msgid "Revision"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:729
+#@ default
+msgid "Trash"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:742
+#@ default
+msgid "Super Admin"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_group.php:757
+#: inc/advanced-custom-fields/core/controllers/field_group.php:778
+#: inc/advanced-custom-fields/core/controllers/field_group.php:785
+#: inc/advanced-custom-fields/core/fields/file.php:186
+#: inc/advanced-custom-fields/core/fields/image.php:170
+#: inc/advanced-custom-fields/core/fields/page_link.php:109
+#: inc/advanced-custom-fields/core/fields/post_object.php:274
+#: inc/advanced-custom-fields/core/fields/post_object.php:298
+#: inc/advanced-custom-fields/core/fields/relationship.php:601
+#: inc/advanced-custom-fields/core/fields/relationship.php:625
+#: inc/advanced-custom-fields/core/fields/user.php:276
+#@ acf
+msgid "All"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:147
+#@ default
+msgid "Title"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:216
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:253
+#@ acf
+msgid "Changelog"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:217
+#@ acf
+msgid "See what's new in"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:217
+#@ acf
+msgid "version"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:219
+#@ acf
+msgid "Resources"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:221
+#@ acf
+msgid "Getting Started"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:222
+#@ acf
+msgid "Field Types"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:223
+#@ acf
+msgid "Functions"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:224
+#@ acf
+msgid "Actions"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:225
+#: inc/advanced-custom-fields/core/fields/relationship.php:644
+#@ acf
+msgid "Filters"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:226
+#@ acf
+msgid "'How to' guides"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:227
+#@ acf
+msgid "Tutorials"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:232
+#@ acf
+msgid "Created by"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:244
+#@ acf
+msgid "Welcome to Advanced Custom Fields"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:245
+#@ acf
+msgid "Thank you for updating to the latest version!"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:245
+#@ acf
+msgid "is more polished and enjoyable than ever before. We hope you like it."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:252
+#@ acf
+msgid "What’s New"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:255
+#@ acf
+msgid "Download Add-ons"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:309
+#@ acf
+msgid "Activation codes have grown into plugins!"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:310
+#@ acf
+msgid "Add-ons are now activated by downloading and installing individual plugins. Although these plugins will not be hosted on the wordpress.org repository, each Add-on will continue to receive updates in the usual way."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:316
+#@ acf
+msgid "All previous Add-ons have been successfully installed"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:320
+#@ acf
+msgid "This website uses premium Add-ons which need to be downloaded"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:320
+#@ acf
+msgid "Download your activated Add-ons"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:325
+#@ acf
+msgid "This website does not use premium Add-ons and will not be affected by this change."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:335
+#@ acf
+msgid "Easier Development"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:337
+#@ acf
+msgid "New Field Types"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:339
+#@ acf
+msgid "Taxonomy Field"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:340
+#@ acf
+msgid "User Field"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:341
+#@ acf
+msgid "Email Field"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:342
+#@ acf
+msgid "Password Field"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:344
+#@ acf
+msgid "Custom Field Types"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:345
+#@ acf
+msgid "Creating your own field type has never been easier! Unfortunately, version 3 field types are not compatible with version 4."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:346
+#@ acf
+msgid "Migrating your field types is easy, please"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:346
+#@ acf
+msgid "follow this tutorial"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:346
+#@ acf
+msgid "to learn more."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:348
+#@ acf
+msgid "Actions &amp; Filters"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:349
+#@ acf
+msgid "All actions & filters have received a major facelift to make customizing ACF even easier! Please"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:349
+#@ acf
+msgid "read this guide"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:349
+#@ acf
+msgid "to find the updated naming convention."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:351
+#@ acf
+msgid "Preview draft is now working!"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:352
+#@ acf
+msgid "This bug has been squashed along with many other little critters!"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:352
+#@ acf
+msgid "See the full changelog"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:356
+#@ acf
+msgid "Important"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:358
+#@ acf
+msgid "Database Changes"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:359
+#@ acf
+msgid "Absolutely <strong>no</strong> changes have been made to the database between versions 3 and 4. This means you can roll back to version 3 without any issues."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:361
+#@ acf
+msgid "Potential Issues"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:362
+#@ acf
+msgid "Do to the sizable changes surounding Add-ons, field types and action/filters, your website may not operate correctly. It is important that you read the full"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:362
+#@ acf
+msgid "Migrating from v3 to v4"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:362
+#@ acf
+msgid "guide to view the full list of changes."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:365
+#@ acf
+msgid "Really Important!"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:365
+#@ acf
+msgid "If you updated the ACF plugin without prior knowledge of such changes, please roll back to the latest"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:365
+#@ acf
+msgid "version 3"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:365
+#@ acf
+msgid "of this plugin."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:370
+#@ acf
+msgid "Thank You"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:371
+#@ acf
+msgid "A <strong>BIG</strong> thank you to everyone who has helped test the version 4 beta and for all the support I have received."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:372
+#@ acf
+msgid "Without you all, this release would not have been possible!"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:376
+#@ acf
+msgid "Changelog for"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:393
+#@ acf
+msgid "Learn more"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:399
+#@ acf
+msgid "Overview"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:401
+#@ acf
+msgid "Previously, all Add-ons were unlocked via an activation code (purchased from the ACF Add-ons store). New to v4, all Add-ons act as separate plugins which need to be individually downloaded, installed and updated."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:403
+#@ acf
+msgid "This page will assist you in downloading and installing each available Add-on."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:405
+#@ acf
+msgid "Available Add-ons"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:407
+#@ acf
+msgid "The following Add-ons have been detected as activated on this website."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:421
+#@ acf
+msgid "Activation Code"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:453
+#@ acf
+msgid "Flexible Content"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:463
+#@ acf
+msgid "Installation"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:465
+#@ acf
+msgid "For each Add-on available, please perform the following:"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:467
+#@ acf
+msgid "Download the Add-on plugin (.zip file) to your desktop"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:468
+#@ acf
+msgid "Navigate to"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:468
+#@ acf
+msgid "Plugins > Add New > Upload"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:469
+#@ acf
+msgid "Use the uploader to browse, select and install your Add-on (.zip file)"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:470
+#@ acf
+msgid "Once the plugin has been uploaded and installed, click the 'Activate Plugin' link"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:471
+#@ acf
+msgid "The Add-on is now installed and activated!"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/field_groups.php:485
+#@ acf
+msgid "Awesome. Let's get to work"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/input.php:63
+#@ acf
+msgid "Expand Details"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/input.php:64
+#@ acf
+msgid "Collapse Details"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/input.php:67
+#@ acf
+msgid "Validation Failed. One or more fields below are required."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/upgrade.php:77
+#@ acf
+msgid "Upgrade"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/upgrade.php:599
+#@ acf
+msgid "Modifying field group options 'show on page'"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/upgrade.php:653
+#@ acf
+msgid "Modifying field option 'taxonomy'"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/controllers/upgrade.php:750
+#@ acf
+msgid "Moving user custom fields from wp_options to wp_usermeta'"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/_base.php:124
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:74
+#@ acf
+msgid "Basic"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/checkbox.php:19
+#: inc/advanced-custom-fields/core/fields/taxonomy.php:323
+#@ acf
+msgid "Checkbox"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/checkbox.php:20
+#: inc/advanced-custom-fields/core/fields/radio.php:19
+#: inc/advanced-custom-fields/core/fields/select.php:19
+#: inc/advanced-custom-fields/core/fields/true_false.php:20
+#@ acf
+msgid "Choice"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/checkbox.php:146
+#: inc/advanced-custom-fields/core/fields/radio.php:147
+#: inc/advanced-custom-fields/core/fields/select.php:177
+#@ acf
+msgid "Choices"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/checkbox.php:147
+#: inc/advanced-custom-fields/core/fields/select.php:178
+#@ acf
+msgid "Enter each choice on a new line."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/checkbox.php:148
+#: inc/advanced-custom-fields/core/fields/select.php:179
+#@ acf
+msgid "For more control, you may specify both a value and label like this:"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/checkbox.php:149
+#: inc/advanced-custom-fields/core/fields/radio.php:153
+#: inc/advanced-custom-fields/core/fields/select.php:180
+#@ acf
+msgid "red : Red"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/checkbox.php:149
+#: inc/advanced-custom-fields/core/fields/radio.php:154
+#: inc/advanced-custom-fields/core/fields/select.php:180
+#@ acf
+msgid "blue : Blue"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/checkbox.php:166
+#: inc/advanced-custom-fields/core/fields/color_picker.php:89
+#: inc/advanced-custom-fields/core/fields/email.php:106
+#: inc/advanced-custom-fields/core/fields/number.php:116
+#: inc/advanced-custom-fields/core/fields/radio.php:196
+#: inc/advanced-custom-fields/core/fields/select.php:197
+#: inc/advanced-custom-fields/core/fields/text.php:116
+#: inc/advanced-custom-fields/core/fields/textarea.php:103
+#: inc/advanced-custom-fields/core/fields/true_false.php:94
+#: inc/advanced-custom-fields/core/fields/wysiwyg.php:277
+#@ acf
+msgid "Default Value"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/checkbox.php:167
+#: inc/advanced-custom-fields/core/fields/select.php:198
+#@ acf
+msgid "Enter each default value on a new line"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/checkbox.php:183
+#: inc/advanced-custom-fields/core/fields/message.php:20
+#: inc/advanced-custom-fields/core/fields/radio.php:212
+#: inc/advanced-custom-fields/core/fields/tab.php:20
+#@ acf
+msgid "Layout"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/checkbox.php:194
+#: inc/advanced-custom-fields/core/fields/radio.php:223
+#@ acf
+msgid "Vertical"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/checkbox.php:195
+#: inc/advanced-custom-fields/core/fields/radio.php:224
+#@ acf
+msgid "Horizontal"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/color_picker.php:19
+#@ acf
+msgid "Color Picker"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/color_picker.php:20
+#: inc/advanced-custom-fields/core/fields/date_picker/date_picker.php:20
+#: inc/advanced-custom-fields/core/fields/google-map.php:19
+#@ acf
+msgid "jQuery"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/date_picker/date_picker.php:19
+#@ acf
+msgid "Date Picker"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/date_picker/date_picker.php:55
+#@ acf
+msgid "Done"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/date_picker/date_picker.php:56
+#@ acf
+msgid "Today"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/date_picker/date_picker.php:59
+#@ acf
+msgid "Show a different month"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/date_picker/date_picker.php:126
+#@ acf
+msgid "Save format"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/date_picker/date_picker.php:127
+#@ acf
+msgid "This format will determin the value saved to the database and returned via the API"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/date_picker/date_picker.php:128
+#@ acf
+msgid "\"yymmdd\" is the most versatile save format. Read more about"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/date_picker/date_picker.php:128
+#: inc/advanced-custom-fields/core/fields/date_picker/date_picker.php:144
+#@ acf
+msgid "jQuery date formats"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/date_picker/date_picker.php:142
+#@ acf
+msgid "Display format"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/date_picker/date_picker.php:143
+#@ acf
+msgid "This format will be seen by the user when entering a value"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/date_picker/date_picker.php:144
+#@ acf
+msgid "\"dd/mm/yy\" or \"mm/dd/yy\" are the most used display formats. Read more about"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/date_picker/date_picker.php:158
+#@ acf
+msgid "Week Starts On"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/dummy.php:19
+#@ default
+msgid "Dummy"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/email.php:19
+#@ acf
+msgid "Email"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/email.php:107
+#: inc/advanced-custom-fields/core/fields/number.php:117
+#: inc/advanced-custom-fields/core/fields/text.php:117
+#: inc/advanced-custom-fields/core/fields/textarea.php:104
+#: inc/advanced-custom-fields/core/fields/wysiwyg.php:278
+#@ acf
+msgid "Appears when creating a new post"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/email.php:123
+#: inc/advanced-custom-fields/core/fields/number.php:133
+#: inc/advanced-custom-fields/core/fields/password.php:105
+#: inc/advanced-custom-fields/core/fields/text.php:131
+#: inc/advanced-custom-fields/core/fields/textarea.php:118
+#@ acf
+msgid "Placeholder Text"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/email.php:124
+#: inc/advanced-custom-fields/core/fields/number.php:134
+#: inc/advanced-custom-fields/core/fields/password.php:106
+#: inc/advanced-custom-fields/core/fields/text.php:132
+#: inc/advanced-custom-fields/core/fields/textarea.php:119
+#@ acf
+msgid "Appears within the input"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/email.php:138
+#: inc/advanced-custom-fields/core/fields/number.php:148
+#: inc/advanced-custom-fields/core/fields/password.php:120
+#: inc/advanced-custom-fields/core/fields/text.php:146
+#@ acf
+msgid "Prepend"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/email.php:139
+#: inc/advanced-custom-fields/core/fields/number.php:149
+#: inc/advanced-custom-fields/core/fields/password.php:121
+#: inc/advanced-custom-fields/core/fields/text.php:147
+#@ acf
+msgid "Appears before the input"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/email.php:153
+#: inc/advanced-custom-fields/core/fields/number.php:163
+#: inc/advanced-custom-fields/core/fields/password.php:135
+#: inc/advanced-custom-fields/core/fields/text.php:161
+#@ acf
+msgid "Append"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/email.php:154
+#: inc/advanced-custom-fields/core/fields/number.php:164
+#: inc/advanced-custom-fields/core/fields/password.php:136
+#: inc/advanced-custom-fields/core/fields/text.php:162
+#@ acf
+msgid "Appears after the input"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/file.php:19
+#@ acf
+msgid "File"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/file.php:20
+#: inc/advanced-custom-fields/core/fields/image.php:20
+#: inc/advanced-custom-fields/core/fields/wysiwyg.php:37
+#@ acf
+msgid "Content"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/file.php:26
+#@ acf
+msgid "Select File"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/file.php:27
+#@ acf
+msgid "Edit File"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/file.php:28
+#@ acf
+msgid "Update File"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/file.php:29
+#: inc/advanced-custom-fields/core/fields/image.php:30
+#@ acf
+msgid "uploaded to this post"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/file.php:123
+#@ acf
+msgid "No File Selected"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/file.php:123
+#@ acf
+msgid "Add File"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/file.php:153
+#: inc/advanced-custom-fields/core/fields/image.php:118
+#: inc/advanced-custom-fields/core/fields/taxonomy.php:371
+#@ acf
+msgid "Return Value"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/file.php:164
+#@ acf
+msgid "File Object"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/file.php:165
+#@ acf
+msgid "File URL"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/file.php:166
+#@ acf
+msgid "File ID"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/file.php:175
+#: inc/advanced-custom-fields/core/fields/image.php:158
+#@ acf
+msgid "Library"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/file.php:187
+#: inc/advanced-custom-fields/core/fields/image.php:171
+#@ acf
+msgid "Uploaded to post"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/google-map.php:18
+#@ acf
+msgid "Google Map"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/google-map.php:33
+#@ acf
+msgid "Locating"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/google-map.php:34
+#@ acf
+msgid "Sorry, this browser does not support geolocation"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/google-map.php:120
+#@ acf
+msgid "Clear location"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/google-map.php:125
+#@ acf
+msgid "Find current location"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/google-map.php:126
+#@ acf
+msgid "Search for address..."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/google-map.php:162
+#@ acf
+msgid "Center"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/google-map.php:163
+#@ acf
+msgid "Center the initial map"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/google-map.php:199
+#@ acf
+msgid "Zoom"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/google-map.php:200
+#@ acf
+msgid "Set the initial zoom level"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/google-map.php:217
+#@ acf
+msgid "Height"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/google-map.php:218
+#@ acf
+msgid "Customise the map height"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/image.php:19
+#@ acf
+msgid "Image"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/image.php:27
+#@ acf
+msgid "Select Image"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/image.php:28
+#@ acf
+msgid "Edit Image"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/image.php:29
+#@ acf
+msgid "Update Image"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/image.php:83
+#@ acf
+msgid "Remove"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/image.php:90
+#@ acf
+msgid "No image selected"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/image.php:90
+#@ acf
+msgid "Add Image"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/image.php:119
+#: inc/advanced-custom-fields/core/fields/relationship.php:576
+#@ acf
+msgid "Specify the returned value on front end"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/image.php:129
+#@ acf
+msgid "Image Object"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/image.php:130
+#@ acf
+msgid "Image URL"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/image.php:131
+#@ acf
+msgid "Image ID"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/image.php:139
+#@ acf
+msgid "Preview Size"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/image.php:140
+#@ acf
+msgid "Shown when entering data"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/image.php:159
+#@ acf
+msgid "Limit the media library choice"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/message.php:19
+#: inc/advanced-custom-fields/core/fields/message.php:70
+#: inc/advanced-custom-fields/core/fields/true_false.php:79
+#@ acf
+msgid "Message"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/message.php:71
+#@ acf
+msgid "Text &amp; HTML entered here will appear inline with the fields"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/message.php:72
+#@ acf
+msgid "Please note that all text will first be passed through the wp function "
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/number.php:19
+#@ acf
+msgid "Number"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/number.php:178
+#@ acf
+msgid "Minimum Value"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/number.php:194
+#@ acf
+msgid "Maximum Value"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/number.php:210
+#@ acf
+msgid "Step Size"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/page_link.php:18
+#@ acf
+msgid "Page Link"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/page_link.php:19
+#: inc/advanced-custom-fields/core/fields/post_object.php:19
+#: inc/advanced-custom-fields/core/fields/relationship.php:19
+#: inc/advanced-custom-fields/core/fields/taxonomy.php:19
+#: inc/advanced-custom-fields/core/fields/user.php:19
+#@ acf
+msgid "Relational"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/page_link.php:103
+#: inc/advanced-custom-fields/core/fields/post_object.php:268
+#: inc/advanced-custom-fields/core/fields/relationship.php:595
+#: inc/advanced-custom-fields/core/fields/relationship.php:674
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:75
+#@ acf
+msgid "Post Type"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/page_link.php:127
+#: inc/advanced-custom-fields/core/fields/post_object.php:317
+#: inc/advanced-custom-fields/core/fields/select.php:214
+#: inc/advanced-custom-fields/core/fields/taxonomy.php:337
+#: inc/advanced-custom-fields/core/fields/user.php:322
+#@ acf
+msgid "Allow Null?"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/page_link.php:148
+#: inc/advanced-custom-fields/core/fields/post_object.php:338
+#: inc/advanced-custom-fields/core/fields/select.php:233
+#@ acf
+msgid "Select multiple values?"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/password.php:19
+#@ acf
+msgid "Password"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/post_object.php:18
+#@ acf
+msgid "Post Object"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/post_object.php:292
+#: inc/advanced-custom-fields/core/fields/relationship.php:619
+#@ acf
+msgid "Filter from Taxonomy"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/radio.php:18
+#@ acf
+msgid "Radio Button"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/radio.php:105
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:91
+#@ acf
+msgid "Other"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/radio.php:148
+#@ acf
+msgid "Enter your choices one per line"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/radio.php:150
+#@ acf
+msgid "Red"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/radio.php:151
+#@ acf
+msgid "Blue"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/radio.php:175
+#@ acf
+msgid "Add 'other' choice to allow for custom values"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/radio.php:187
+#@ acf
+msgid "Save 'other' values to the field's choices"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/relationship.php:18
+#@ acf
+msgid "Relationship"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/relationship.php:29
+#@ acf
+msgid "Maximum values reached ( {max} values )"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/relationship.php:429
+#@ acf
+msgid "Search..."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/relationship.php:440
+#@ acf
+msgid "Filter by post type"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/relationship.php:575
+#@ acf
+msgid "Return Format"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/relationship.php:586
+#@ acf
+msgid "Post Objects"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/relationship.php:587
+#@ acf
+msgid "Post IDs"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/relationship.php:654
+#@ acf
+msgid "Post Type Select"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/relationship.php:662
+#@ acf
+msgid "Elements"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/relationship.php:663
+#@ acf
+msgid "Selected elements will be displayed in each result"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/relationship.php:672
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:106
+#@ acf
+msgid "Featured Image"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/relationship.php:673
+#@ acf
+msgid "Post Title"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/relationship.php:685
+#@ acf
+msgid "Maximum posts"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/select.php:18
+#: inc/advanced-custom-fields/core/fields/select.php:109
+#: inc/advanced-custom-fields/core/fields/taxonomy.php:328
+#: inc/advanced-custom-fields/core/fields/user.php:313
+#@ acf
+msgid "Select"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/tab.php:19
+#@ acf
+msgid "Tab"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/tab.php:68
+#@ acf
+msgid "Use \"Tab Fields\" to better organize your edit screen by grouping your fields together under separate tab headings."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/tab.php:69
+#@ acf
+msgid "All the fields following this \"tab field\" (or until another \"tab field\" is defined) will be grouped together."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/tab.php:70
+#@ acf
+msgid "Use multiple tabs to divide your fields into sections."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/taxonomy.php:18
+#: inc/advanced-custom-fields/core/fields/taxonomy.php:278
+#@ acf
+msgid "Taxonomy"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/taxonomy.php:222
+#: inc/advanced-custom-fields/core/fields/taxonomy.php:231
+#@ acf
+msgid "None"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/taxonomy.php:312
+#: inc/advanced-custom-fields/core/fields/user.php:298
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:77
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:159
+#@ acf
+msgid "Field Type"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/taxonomy.php:322
+#: inc/advanced-custom-fields/core/fields/user.php:307
+#@ acf
+msgid "Multiple Values"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/taxonomy.php:324
+#: inc/advanced-custom-fields/core/fields/user.php:309
+#@ acf
+msgid "Multi Select"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/taxonomy.php:326
+#: inc/advanced-custom-fields/core/fields/user.php:311
+#@ acf
+msgid "Single Value"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/taxonomy.php:327
+#@ acf
+msgid "Radio Buttons"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/taxonomy.php:356
+#@ acf
+msgid "Load & Save Terms to Post"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/taxonomy.php:364
+#@ acf
+msgid "Load value based on the post's terms and update the post's terms on save"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/taxonomy.php:381
+#@ acf
+msgid "Term Object"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/taxonomy.php:382
+#@ acf
+msgid "Term ID"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/text.php:19
+#@ acf
+msgid "Text"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/text.php:176
+#: inc/advanced-custom-fields/core/fields/textarea.php:164
+#@ acf
+msgid "Formatting"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/text.php:177
+#: inc/advanced-custom-fields/core/fields/textarea.php:165
+#@ acf
+msgid "Effects value on front end"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/text.php:186
+#: inc/advanced-custom-fields/core/fields/textarea.php:174
+#@ acf
+msgid "No formatting"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/text.php:187
+#: inc/advanced-custom-fields/core/fields/textarea.php:176
+#@ acf
+msgid "Convert HTML into tags"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/text.php:195
+#: inc/advanced-custom-fields/core/fields/textarea.php:133
+#@ acf
+msgid "Character Limit"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/text.php:196
+#: inc/advanced-custom-fields/core/fields/textarea.php:134
+#@ acf
+msgid "Leave blank for no limit"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/textarea.php:19
+#@ acf
+msgid "Text Area"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/textarea.php:148
+#@ acf
+msgid "Rows"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/textarea.php:149
+#@ acf
+msgid "Sets the textarea height"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/textarea.php:175
+#@ acf
+msgid "Convert new lines into &lt;br /&gt; tags"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/true_false.php:19
+#@ acf
+msgid "True / False"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/true_false.php:80
+#@ acf
+msgid "eg. Show extra content"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/user.php:18
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:94
+#@ acf
+msgid "User"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/user.php:271
+#@ acf
+msgid "Filter by role"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/wysiwyg.php:36
+#@ acf
+msgid "Wysiwyg Editor"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/wysiwyg.php:292
+#@ acf
+msgid "Toolbar"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/fields/wysiwyg.php:324
+#@ acf
+msgid "Show Media Upload Buttons?"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:24
+#@ acf
+msgid "New Field"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:58
+#@ acf
+msgid "Field type does not exist"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:74
+#@ acf
+msgid "Field Order"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:75
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:127
+#@ acf
+msgid "Field Label"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:76
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:143
+#@ acf
+msgid "Field Name"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:78
+#@ acf
+msgid "Field Key"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:90
+#@ acf
+msgid "No fields. Click the <strong>+ Add Field</strong> button to create your first field."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:105
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:108
+#@ acf
+msgid "Edit this Field"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:109
+#@ acf
+msgid "Read documentation for this field"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:109
+#@ acf
+msgid "Docs"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:110
+#@ acf
+msgid "Duplicate this Field"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:110
+#@ acf
+msgid "Duplicate"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:111
+#@ acf
+msgid "Delete this Field"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:111
+#@ acf
+msgid "Delete"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:128
+#@ acf
+msgid "This is the name which will appear on the EDIT page"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:144
+#@ acf
+msgid "Single word, no spaces. Underscores and dashes allowed"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:173
+#@ acf
+msgid "Field Instructions"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:174
+#@ acf
+msgid "Instructions for authors. Shown when submitting data"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:187
+#@ acf
+msgid "Required?"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:210
+#@ acf
+msgid "Conditional Logic"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:261
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:117
+#@ acf
+msgid "is equal to"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:262
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:118
+#@ acf
+msgid "is not equal to"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:280
+#@ acf
+msgid "Show this field when"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:286
+#@ acf
+msgid "all"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:287
+#@ acf
+msgid "any"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:290
+#@ acf
+msgid "these rules are met"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:304
+#@ acf
+msgid "Close Field"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:317
+#@ acf
+msgid "Drag and drop to reorder"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_fields.php:318
+#@ acf
+msgid "+ Add Field"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:48
+#@ acf
+msgid "Rules"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:49
+#@ acf
+msgid "Create a set of rules to determine which edit screens will use these advanced custom fields"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:60
+#@ acf
+msgid "Show this field group if"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:76
+#@ acf
+msgid "Logged in User Type"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:78
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:79
+#@ acf
+msgid "Post"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:80
+#@ acf
+msgid "Post Category"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:81
+#@ acf
+msgid "Post Format"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:82
+#@ acf
+msgid "Post Status"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:83
+#@ acf
+msgid "Post Taxonomy"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:85
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:86
+#@ acf
+msgid "Page"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:87
+#@ acf
+msgid "Page Type"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:88
+#@ acf
+msgid "Page Parent"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:89
+#@ acf
+msgid "Page Template"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:92
+#@ acf
+msgid "Attachment"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:93
+#@ acf
+msgid "Taxonomy Term"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:146
+#@ acf
+msgid "and"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_location.php:161
+#@ acf
+msgid "Add rule group"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:25
+#@ acf
+msgid "Order No."
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:26
+#@ acf
+msgid "Field groups are created in order <br />from lowest to highest"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:42
+#@ acf
+msgid "Position"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:52
+#@ acf
+msgid "High (after title)"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:53
+#@ acf
+msgid "Normal (after content)"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:54
+#@ acf
+msgid "Side"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:64
+#@ acf
+msgid "Style"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:74
+#@ acf
+msgid "Seamless (no metabox)"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:75
+#@ acf
+msgid "Standard (WP metabox)"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:84
+#@ acf
+msgid "Hide on screen"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:85
+#@ acf
+msgid "<b>Select</b> items to <b>hide</b> them from the edit screen"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:86
+#@ acf
+msgid "If multiple field groups appear on an edit screen, the first field group's options will be used. (the one with the lowest order number)"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:96
+#@ acf
+msgid "Permalink"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:97
+#@ acf
+msgid "Content Editor"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:98
+#@ acf
+msgid "Excerpt"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:100
+#@ acf
+msgid "Discussion"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:101
+#@ acf
+msgid "Comments"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:102
+#@ acf
+msgid "Revisions"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:103
+#@ acf
+msgid "Slug"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:104
+#@ acf
+msgid "Author"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:105
+#@ acf
+msgid "Format"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:108
+#@ acf
+msgid "Tags"
+msgstr ""
+
+#: inc/advanced-custom-fields/core/views/meta_box_options.php:109
+#@ acf
+msgid "Send Trackbacks"
+msgstr ""
+
+#: inc/torrent-fields.php:7
+#@ odin
+msgid "Files"
+msgstr "Arquivos"
+
+#: inc/torrent-fields.php:14
+#@ odin
+msgid "Access <a href=\"http://torrent2magnet.com\" target=\"blank\">Torrent2Magnet</a> to generate your magnet link"
+msgstr "Acesse <a href=\"http://torrent2magnet.com\" target=\"blank\">Torrent2Magnet</a> para gerar seu magnet link"
+
+#: inc/torrent-fields.php:28
+#@ odin
+msgid "Select your .torrent file"
+msgstr "Selecione seu arquivo .torrent"
+

@@ -268,3 +268,21 @@ require_once get_template_directory() . '/inc/plugins-support.php';
  * Custom template tags.
  */
 require_once get_template_directory() . '/inc/template-tags.php';
+
+/**
+ * Add fields
+ */
+require_once get_template_directory() . '/inc/torrent-fields.php';
+//require_once get_template_directory() . '/inc/advanced-custom-fields/acf.php';
+
+/**
+ * Rename post type
+ */
+function change_post_label() {
+	global $menu;
+    global $submenu;
+    $menu[5][0] = __('Torrents','odin');
+    $submenu['edit.php'][5][0] = __('Torrents','odin');
+    $submenu['edit.php'][10][0] = __('Add Torrent','odin');
+}
+add_action( 'admin_menu', 'change_post_label' );

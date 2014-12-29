@@ -22,9 +22,11 @@ get_header(); ?>
 					get_template_part( 'content', 'single' );
 
 					// If comments are open or we have at least one comment, load up the comment template.
-					if ( comments_open() || get_comments_number() ) :
-						comments_template();
-					endif;
+					if ( comments_open() || get_comments_number() ) : ?>
+					    <div class="col-md-12">
+					    	<?php comments_template(); ?>
+					    </div><!-- .col-md-12 -->
+					<?php endif;
 				endwhile;
 			?>
 		</div><!-- #content -->
