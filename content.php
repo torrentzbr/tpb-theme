@@ -28,7 +28,14 @@ parse_str($magnet,$magnet_array);
 				</small>
 			</em>
 		</td>
-		<td class="date-row"><?php the_date(); ?></td>
-		<td class="size-row"><?php echo format_size_units($magnet_array['amp;xl']); ?></td>
+		<td class="date-row"><?php the_time(get_option('date_format')); ?></td>
+		<td class="size-row">
+			<?php if(!empty($magnet_array['amp;xl'])): ?>
+			    <?php echo format_size_units($magnet_array['amp;xl']); ?>
+			<?php endif; ?>
+			<?php if(empty($magnet_array['amp;xl'])): ?>
+			     <?php echo format_size_units(get_torrent_size(get_post_meta( get_the_ID(), 'torrent_file', true ))); ?>
+		    <?php endif; ?>
+		</td>
 	</tr>
 </tbody>

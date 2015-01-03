@@ -1,6 +1,6 @@
 <?php
-$conecta = mysql_connect('localhost:3307', 'isohunt', '123') or print (mysql_error());
-mysql_select_db('isohunt', $conecta) or print(mysql_error());
+$conecta = mysql_connect('localhost', 'admin_isohunt', 'mcvDuJzUEu') or print (mysql_error());
+mysql_select_db('admin_isohunt', $conecta) or print(mysql_error());
 $sql = 'SELECT * FROM torrents';
 $result = mysql_query($sql, $conecta);
 

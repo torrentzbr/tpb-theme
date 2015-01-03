@@ -111,3 +111,18 @@ ol.commentlist{
 	background:#DEE9F3;
 	margin-top:-15px;
 }
+.social-icons a{
+	font-size:32px;
+	display:inline-block;
+	margin-left:10px;
+	text-decoration: none !important;
+}
+.social-icons a:first-child{
+	margin-left:0px;
+}
+.social-icons .fa-facebook-square{
+	color:#3B5998;
+}
+.social-icons .fa-twitter-square{
+	color:#55ACEE;
+}

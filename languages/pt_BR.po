@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Odin v2.2.6\n"
+"Project-Id-Version: The Pirate Bay theme v0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-10 07:21-0300\n"
-"PO-Revision-Date: 2014-12-29 02:24:45+0000\n"
+"PO-Revision-Date: 2014-12-29 03:42:39+0000\n"
 "Last-Translator: Rafael Funchal <rafaelfunchal@gmail.com>\n"
 "Language-Team: WordPress Brasil Group\n"
 "MIME-Version: 1.0\n"
@@ -184,17 +184,6 @@ msgstr "Parece que não conseguimos encontrar o que você está procurando. Talv
 msgid "Pages:"
 msgstr "Páginas:"
 
-#: footer.php:17
-#@ odin
-msgid "All rights reserved"
-msgstr "Todos os direitos reservados"
-
-#: footer.php:17
-#, php-format
-#@ odin
-msgid "Powered by the <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">Odin</a> forces and <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">WordPress</a>."
-msgstr "Powered by the <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">Odin</a> forces and <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">WordPress</a>."
-
 #: functions.php:65
 #@ odin
 msgid "Main Menu"
@@ -211,9 +200,9 @@ msgid "Site Main Sidebar"
 msgstr "Sidebar principal do site"
 
 #: front-page.php:20
-#: front-page.php:35
+#: front-page.php:41
 #: header.php:39
-#: header.php:54
+#: header.php:60
 #: inc/advanced-custom-fields/core/fields/relationship.php:653
 #: searchform.php:12
 #: searchform.php:15
@@ -678,28 +667,28 @@ msgid "Category: "
 msgstr ""
 
 #: front-page.php:21
-#: front-page.php:46
+#: front-page.php:52
 #: header.php:40
-#: header.php:65
+#: header.php:71
 #: inc/advanced-custom-fields/core/views/meta_box_options.php:107
 #@ odin
 #@ acf
 msgid "Categories"
 msgstr "Categorias"
 
-#: front-page.php:24
-#: header.php:43
+#: front-page.php:30
+#: header.php:49
 #@ odin
 msgid "Search Pirate"
 msgstr "Busca Pirata"
 
+#: functions.php:283
 #: functions.php:284
-#: functions.php:285
 #@ odin
 msgid "Torrents"
 msgstr "Torrents"
 
-#: functions.php:286
+#: functions.php:285
 #@ odin
 msgid "Add Torrent"
 msgstr "Adicionar Torrent"
@@ -2914,4 +2903,16 @@ msgstr "Acesse <a href=\"http://torrent2magnet.com\" target=\"blank\">Torrent2Ma
 #@ odin
 msgid "Select your .torrent file"
 msgstr "Selecione seu arquivo .torrent"
+
+#: front-page.php:23
+#: header.php:42
+#@ odin
+msgid "Create Account/Login"
+msgstr "Criar Conta/Entrar"
+
+#: front-page.php:26
+#: header.php:45
+#@ odin
+msgid "Upload Torrent"
+msgstr "Adicionar Torrent"
 

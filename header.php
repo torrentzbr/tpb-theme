@@ -34,8 +34,10 @@
 <body <?php body_class(); ?>>
 	<div class="container">
 		<div id="main" class="site-main row">
-			<header class="col-md-12 home"></header><!-- .col-md-12 home -->
-			<div class="col-md-2 col-md-offset-5 col-xs-12" id="home-menu">
+			<header class="col-md-12 home">
+				<?php get_template_part('content','social'); ?>
+			</header><!-- .col-md-12 home -->
+			<div class="col-md-4 col-md-offset-4 col-xs-12" id="home-menu">
 				<a href="#" class="active"><?php _e('Search','odin'); ?></a> |
 				<a href="#" id="categories" data-toggle="modal" data-target="#categories-modal"><?php _e('Categories','odin'); ?></a>
 				<?php if(!is_user_logged_in()): ?>

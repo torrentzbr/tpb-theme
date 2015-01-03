@@ -26,7 +26,7 @@ if ( ! isset( $content_width ) ) {
 require_once get_template_directory() . '/core/classes/class-bootstrap-nav.php';
 require_once get_template_directory() . '/core/classes/class-shortcodes.php';
 require_once get_template_directory() . '/core/classes/class-thumbnail-resizer.php';
-// require_once get_template_directory() . '/core/classes/class-theme-options.php';
+require_once get_template_directory() . '/core/classes/class-theme-options.php';
 // require_once get_template_directory() . '/core/classes/class-options-helper.php';
 // require_once get_template_directory() . '/core/classes/class-post-type.php';
 // require_once get_template_directory() . '/core/classes/class-taxonomy.php';
@@ -191,6 +191,7 @@ add_action( 'after_switch_theme', 'odin_flush_rewrite' );
 function odin_enqueue_scripts() {
 	$template_url = get_template_directory_uri();
 
+	wp_enqueue_style( 'font-awesome', $template_url . '/assets/css/font-awesome.min.css', array(), null, 'all' );
 	wp_enqueue_style( 'lobster-font', 'http://fonts.googleapis.com/css?family=Lobster', array(), null, 'all' );
 
 	// Loads Odin main stylesheet.
@@ -240,6 +241,10 @@ function odin_stylesheet_uri( $uri, $dir ) {
 add_filter( 'stylesheet_uri', 'odin_stylesheet_uri', 10, 2 );
 
 /**
+ * Torrent Class
+ */
+require_once get_template_directory() . '/inc/torrent-rw/Torrent.php';
+/**
  * Core Helpers.
  */
 require_once get_template_directory() . '/core/helpers.php';
@@ -274,6 +279,7 @@ require_once get_template_directory() . '/inc/template-tags.php';
  */
 require_once get_template_directory() . '/inc/advanced-custom-fields/acf.php';
 require_once get_template_directory() . '/inc/torrent-fields.php';
+require_once get_template_directory() . '/inc/options.php';
 /**
  * Rename post type
  */

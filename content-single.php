@@ -22,7 +22,14 @@ parse_str($magnet,$magnet_array);
 			</div><!-- .col-md-6 infos -->
 			<div class="col-md-12 infos">
 				<div class="pull-left"><?php _e('Size:','odin'); ?></div><!-- .pull-left -->
-				<div class="pull-right"><?php echo format_size_units($magnet_array['amp;xl']); ?></div><!-- .pull-right -->
+				<div class="pull-right">
+				    <?php if(!empty($magnet_array['amp;xl'])): ?>
+				        <?php echo format_size_units($magnet_array['amp;xl']); ?>
+			        <?php endif; ?>
+			        <?php if(empty($magnet_array['amp;xl'])): ?>
+			            <?php echo format_size_units(get_torrent_size(get_post_meta( get_the_ID(), 'torrent_file', true ))); ?>
+		            <?php endif; ?>
+				</div><!-- .pull-right -->
 			</div><!-- .col-md-6 infos -->
 			<div class="col-md-12 infos">
 				<div class="pull-left"><?php _e('Hash:','odin'); ?></div><!-- .pull-left -->

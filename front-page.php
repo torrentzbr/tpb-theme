@@ -12,9 +12,9 @@
  * @package Odin
  * @since 2.2.0
  */
-
 get_header('home'); ?>
 	<header class="col-md-12 home">
+		<?php get_template_part('content','social'); ?>
 	</header><!-- .col-md-12 home -->
 	<div class="col-md-4 col-md-offset-4 col-xs-12" id="home-menu">
 		<a href="#" class="active"><?php _e('Search','odin'); ?></a> |
