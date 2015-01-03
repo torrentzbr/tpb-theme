@@ -26,7 +26,7 @@ get_header('home'); ?>
 		    | <a href="<?php echo admin_url('post-new.php'); ?>"><?php _e('Upload Torrent','odin'); ?></a>
 		<?php endif; ?>
 		<?php $count_posts = wp_count_posts(); ?>
-		<?php echo . ' | ' $count_posts->publish . ' Torrents'; ?>
+		<?php echo ' | ' . $count_posts->publish . ' Torrents'; ?>
 	</div><!-- .col-md-6 col-md-offset-4 -->
 	<form method="get" id="searchform-home" class="col-md-12" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
 		<input type="text" class="col-md-12" name="s" id="s" placeholder="<?php esc_attr_e( 'Search Pirate', 'odin' ); ?>" required />
