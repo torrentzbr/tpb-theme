@@ -23,6 +23,7 @@ get_header(); ?>
 					<thead>
 						<tr>
 							<th class="title-row" id="serps_ctitle">Torrents</th>
+							<th class="title-row">Seeders/Leechers</th>
 							<th class="date-row" id="serps_ccreated_at"><a class="sort-link"><?php _e('Date','odin');?></a></th>
 							<th class="size-row" id="serps_csize"><a class="sort-link"><?php _e('Size','odin'); ?></a></th>
 						</tr>

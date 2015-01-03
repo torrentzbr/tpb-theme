@@ -28,6 +28,9 @@ parse_str($magnet,$magnet_array);
 				</small>
 			</em>
 		</td>
+		<td class="seeders-row">
+			<?php echo get_post_meta(get_the_ID(),'torrent_info',true); ?>
+		</td>
 		<td class="date-row"><?php the_time(get_option('date_format')); ?></td>
 		<td class="size-row">
 			<?php if(!empty($magnet_array['amp;xl'])): ?>

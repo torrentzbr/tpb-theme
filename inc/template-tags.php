@@ -123,3 +123,8 @@ function get_torrent_size($file_id){
 	$torrent = new Torrent($file);
 	return $torrent->size();
 }
+function get_torrent_hash($file_id){
+	$file = get_attached_file($file_id);
+	$torrent = new Torrent($file);
+	return $torrent->hash_info();
+}

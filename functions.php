@@ -281,6 +281,10 @@ require_once get_template_directory() . '/inc/advanced-custom-fields/acf.php';
 require_once get_template_directory() . '/inc/torrent-fields.php';
 require_once get_template_directory() . '/inc/options.php';
 /**
+ * Get seeders/leechers
+ */
+require_once get_template_directory() . '/inc/torrent-info.php';
+/**
  * Rename post type
  */
 function change_post_label() {

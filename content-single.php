@@ -32,6 +32,12 @@ parse_str($magnet,$magnet_array);
 				</div><!-- .pull-right -->
 			</div><!-- .col-md-6 infos -->
 			<div class="col-md-12 infos">
+				<div class="pull-left"><?php _e('Seeders/Leechers:','odin'); ?></div><!-- .pull-left -->
+				<div class="pull-right">
+					<?php echo get_post_meta(get_the_ID(),'torrent_info',true); ?>
+				</div><!-- .pull-right -->
+			</div><!-- .col-md-6 infos -->
+			<div class="col-md-12 infos">
 				<div class="pull-left"><?php _e('Hash:','odin'); ?></div><!-- .pull-left -->
 				<div class="pull-right">
 					<?php echo str_replace('urn:btih:', '', $magnet_array['magnet:?xt']); ?>
