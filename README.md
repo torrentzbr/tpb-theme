@@ -1,71 +1,45 @@
-# Odin Framework #
+# TorrentzBR #
 
-[Ver essa documentação em Português do Brasil](https://github.com/wpbrasil/odin/blob/master/README-pt_BR.md)
+[View this documentation in Portuguese](https://github.com/torrentzbr/tpb-theme/blob/master/README-pt_BR.md)
 
-![Odin Framework](https://i.imgur.com/DdeMgUx.png)
-
-* [Website](http://wpod.in/)
-* [Demo](http://demo.wpod.in/)
-* [GitHub](https://github.com/wpbrasil/odin)
-* [WordPress Brasil Group on Facebook](https://www.facebook.com/groups/wordpress.brasil)
+* [Website](http://torrentzbr.org)
+* [GitHub](https://github.com/torrentzbr/tpb-theme/)
+* [Página TorrentzBR no Facebook](https://www.facebook.com/TorrentzBRA)
 
 ## Project Description ##
 
-Welcome to Odin, a base-theme developed by [WordPress Brasil Group](https://www.facebook.com/groups/wordpress.brasil), to help on agile development of themes for WordPress.
+Welcome to TorrentzBR, a theme wordpress opensource based OpenBay, the opensource version of The Pirate Bay, we created the TorrentzBR for him to be replicated, use the web to make it easy and safe way to Administration by those who will use the TorrentzBR .
 
-## Installation ##
+## Instalation ##
 
-Send the folder "odin" to the default themes folder from WordPress `wp-content/themes` or send the zipball using the WordPress Theme Installer.
+Send "tpb-theme" folder to the default themes folder of WordPress wp-content / themes or simply send the zipped file using the installer of WordPress themes.
 
 ## Documentation ##
 
-Informations about how-to use the classes and functions from Odin is on the [Official Wiki](https://github.com/wpbrasil/odin/wiki/)
+Information on how to use and TorrentzBR functions in [Wiki Oficial](https://github.com/torrentzbr/tpb-theme/wiki)
 
-## Plugins Support ##
 
-Odin supports natively these plugins:
-
-* [WooCommerce](http://wordpress.org/extend/plugins/woocommerce/)
-* [Jigoshop](http://wordpress.org/extend/plugins/jigoshop/)
-* [JetPack](http://wordpress.org/extend/plugins/jetpack/) Infinite Scroll
-
-## References ##
+## Thanks ##
 
 * [Bootstrap](http://getbootstrap.com/)
-* [Bootstrap Sass](https://github.com/twbs/bootstrap-sass)
-* [HTML5shiv](https://github.com/aFarkas/html5shiv)
-* [matchMedia() polyfill](https://github.com/paulirish/matchMedia.js/)
-* [Respond.js](https://github.com/scottjehl/Respond)
-* [Sass](http://sass-lang.com/)
-* [Compass](http://compass-style.org/)
-* [Grunt.js](http://gruntjs.com/)
-* [aq_resize](https://github.com/sy4mil/Aqua-Resizer)
-* [FitVids](https://github.com/davatron5000/FitVids.js)
-* [EditorConfig](http://editorconfig.org/)
-* [goqr.me](http://goqr.me/)
-* [Google Maps](https://developers.google.com/maps/)
+* [Odin](http://wpod.in/)
+* [WordPress](http://wordpress.org/)
+* [Bitsnoop API](http://bitsnoop.com/)
 
-## Bugs and Sugestions ##
+## Bugs and Suggestions ##
 
-The Odin Framework is an **Open Source** project. Anyone can (and should) help us to improve it.
+The TorrentzBR is a **Open Source** project. Anyone can (and should) help improve it.
 
-Report bugs or do suggestions using the [Issues/Project Forum](https://github.com/wpbrasil/odin/issues)
+Report bugs or make suggestions using [Issues/Project Forum](https://github.com/torrentzbr/tpb-theme/issues)
 
-## Contribute to the Project ##
+## Support the Project ##
 
-To contribute, just click on the **Fork** button, create a *Branch*, improve the code and send it with a **Pull Request**.
+To contribute just click the button **Fork**, create a ** Branch **, fix the code and send it with a **Pull Request**.
 
-More details about how to contribute and send Pull Requests in [GitHub Collaborating](https://help.github.com/categories/63/articles).
+More details of how to contribute and send Pull Requests in [GitHub Collaborating](https://help.github.com/categories/63/articles).
 
-[How to colaborate to opensource projects on GitHub](http://www.youtube.com/watch?v=H3olaBo83As)
 
-## Changelog ##
+## Copyright and license ##
 
-[Changelog here!](https://github.com/wpbrasil/odin/blob/master/CHANGELOG.md)
 
-## Copyright and License ##
-
-Copyright 2013 - 2014 - WordPress Brasil Group.
-
-The PHP code is licensed with [GPLv2](http://www.gnu.org/licenses/gpl-2.0.txt).
-All the CSS, SCSS, JS, images files and others, not including the PHP files is licensed with [MIT](http://opensource.org/licenses/MIT) or by the license specified inside the file.
+The PHP code is licensed under a [GPLv2](http://www.gnu.org/licenses/gpl-2.0.txt). All CSS files, SCSS, JS, images and other not including PHP files are licensed as [MIT](http://opensource.org/licenses/MIT) or in the permit specified in your files.
