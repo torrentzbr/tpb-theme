@@ -13,14 +13,13 @@ class Torrent_Info_WP{
 			$hash = get_torrent_hash(get_post_meta( $post->ID, 'torrent_file', true ));
 		}
 		$response = wp_remote_retrieve_body( wp_remote_get('http://bitsnoop.com/api/trackers.php?hash='.$hash.'&json=1') );
+
 		$response = json_decode($response);
 		$seeders = 0;
 		$leechers = 0;
-		if(!empty($response) && is_object($response) && count($response) > 0){
-			foreach ($response as $infos) {
-				$seeders = intval($infos->NUM_SEEDERS) + $seeders;
-				$leechers = intval($infos->NUM_LEECHERS) + $leechers;
-			}
+		foreach ($response as $infos) {
+			$seeders = intval($infos->NUM_SEEDERS) + $seeders;
+			$leechers = intval($infos->NUM_LEECHERS) + $leechers;
 		}
 		$infos = $seeders . '/' . $leechers;
 		update_post_meta( $post->ID, 'torrent_info', $infos );
