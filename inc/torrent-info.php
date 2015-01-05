@@ -17,7 +17,7 @@ class Torrent_Info_WP{
 		$response = json_decode($response);
 		$seeders = 0;
 		$leechers = 0;
-		foreach ($response as $infos) {
+		foreach ((object) $response as $infos) {
 			$seeders = intval($infos->NUM_SEEDERS) + $seeders;
 			$leechers = intval($infos->NUM_LEECHERS) + $leechers;
 		}
