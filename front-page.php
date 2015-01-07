@@ -16,9 +16,9 @@ get_header('home'); ?>
     <?php $header_image = get_header_image(); ?>
     <?php $header_style = ''; ?>
     <?php if(!empty($header_image)): ?>
-       <?php $header_style = 'url("'.esc_url($header_image).'") no-repeat scroll center center transparent;'; ?>
+       <?php $header_style = 'background:url("'.esc_url($header_image).'") no-repeat scroll center center transparent;'; ?>
     <?php endif; ?>
-	<header class="col-md-12 home" style="<?php echo $header_style; ?>">
+	<header class="col-md-12 home" style="<?php echo esc_attr($header_style); ?>">
 		<?php get_template_part('content','social'); ?>
 	</header><!-- .col-md-12 home -->
 	<div class="col-md-5 col-md-offset-4 col-xs-12" id="home-menu">
