@@ -34,9 +34,14 @@
 <body <?php body_class(); ?>>
 	<div class="container">
 		<div id="main" class="site-main row">
-			<header class="col-md-12 home">
-				<?php get_template_part('content','social'); ?>
-			</header><!-- .col-md-12 home -->
+			<?php $header_image = get_header_image(); ?>
+			<?php $header_style = ''; ?>
+			<?php if(!empty($header_image)): ?>
+			    <?php $header_style = 'url("'.esc_url($header_image).'") no-repeat scroll center center transparent;'; ?>
+            <?php endif; ?>
+	        <header class="col-md-12 home" style="<?php echo $header_style; ?>">
+		        <?php get_template_part('content','social'); ?>
+	        </header><!-- .col-md-12 home -->
 			<div class="col-md-5 col-md-offset-4 col-xs-12" id="home-menu">
 				<a href="#" class="active"><?php _e('Search','odin'); ?></a> |
 				<a href="#" id="categories" data-toggle="modal" data-target="#categories-modal"><?php _e('Categories','odin'); ?></a>
