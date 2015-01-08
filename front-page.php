@@ -25,7 +25,7 @@ get_header('home'); ?>
 		<a href="#" class="active"><?php _e('Search','odin'); ?></a> |
 		<a href="#" id="categories" data-toggle="modal" data-target="#categories-modal"><?php _e('Categories','odin'); ?></a>
 		<?php if(!is_user_logged_in()): ?>
-		    | <a href="<?php echo wp_login_url(); ?>"><?php _e('Create Account/Login','odin'); ?></a>
+		    | <a href="<?php echo home_url() . '/login'; ?>"><?php _e('Create Account/Login','odin'); ?></a>
 		<?php endif; ?>
 		<?php if(is_user_logged_in()): ?>
 		    | <a href="<?php echo admin_url('post-new.php'); ?>"><?php _e('Upload Torrent','odin'); ?></a>

@@ -13,7 +13,7 @@
 		</div><!-- #main -->
 
 		<footer id="footer" role="contentinfo">
-		    <nav class="col-md-4 col-md-offset-4 col-xs-12">
+		    <nav class="col-md-8 col-md-offset-3 col-xs-12">
 		    	<?php
 		    	wp_nav_menu(
 		    		array(
