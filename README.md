@@ -34,7 +34,7 @@ Report bugs or make suggestions using [Issues/Project Forum](https://github.com/
 
 ## Support the Project ##
 
-To contribute to this project, please click on the button **Fork**, create a new ** Branch** to modify the code and send it with a **Pull Request**.
+To contribute to this project, please click on the button **Fork**, create a new **Branch** to modify the code and send it with a **Pull Request**.
 
 More details on how to contribute and send Pull Requests in [GitHub Collaborating](https://help.github.com/categories/collaborating/).
 
