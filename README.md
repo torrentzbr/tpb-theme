@@ -8,11 +8,11 @@
 
 ## Project Description ##
 
-Welcome to TorrentzBR, a theme wordpress opensource based OpenBay, the opensource version of The Pirate Bay, we created the TorrentzBR for him to be replicated, use the web to make it easy and safe way to Administration by those who will use the TorrentzBR .
+Welcome to TorrentzBR, an open source wordpress theme based on OpenBay (opensource version of The Pirate Bay). We've created the TorrentzBR to be replicated, using WordPress to make it an easy and safe way for anyone that wants to run an Open Bay website.
 
 ## Instalation ##
 
-Send "tpb-theme" folder to the default themes folder of WordPress wp-content / themes or simply send the zipped file using the installer of WordPress themes.
+Download the "tpb-theme" folder and copy it to the default WordPress theme's folder at "wp-content/themes" or simply upload the zip file using WordPress dashboard under "Appearance > Themes" section.
 
 ## Documentation ##
 
@@ -34,12 +34,12 @@ Report bugs or make suggestions using [Issues/Project Forum](https://github.com/
 
 ## Support the Project ##
 
-To contribute just click the button **Fork**, create a ** Branch **, fix the code and send it with a **Pull Request**.
+To contribute to this project, please click on the button **Fork**, create a new **Branch** to modify the code and send it with a **Pull Request**.
 
-More details of how to contribute and send Pull Requests in [GitHub Collaborating](https://help.github.com/categories/63/articles).
-
-
-## Copyright and license ##
+More details on how to contribute and send Pull Requests in [GitHub Collaborating](https://help.github.com/categories/collaborating/).
 
 
-The PHP code is licensed under a [GPLv2](http://www.gnu.org/licenses/gpl-2.0.txt). All CSS files, SCSS, JS, images and other not including PHP files are licensed as [MIT](http://opensource.org/licenses/MIT) or in the permit specified in your files.
+## Copyright and License ##
+
+
+The PHP code is licensed under a [GPLv2](http://www.gnu.org/licenses/gpl-2.0.txt). All CSS files, SCSS, JS, images and other not including PHP files are licensed under [MIT](http://opensource.org/licenses/MIT) or under the permitions specified into the files.
